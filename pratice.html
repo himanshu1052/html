@@ -1,0 +1,2047 @@
+
+
+<!DOCTYPE html >
+<html xml:lang="en">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
+
+</title><meta name="description" content="&lt;%=metades%>" /><meta name="keywords" content="&lt;%=keyword%>" /><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" /><link href="../css/screen.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Links for Open Sanserif Google Font -->
+    <link href="../css/typography/typography.css" media="screen" rel="stylesheet" type="text/css" /><link href="../css/jquery-ui.css" rel="stylesheet" type="text/css" /><link href="../css/ddmenu.css" rel="stylesheet" type="text/css" /><link href="../css/banner.css" rel="stylesheet" type="text/css" /><link href="../css/flexslider.css" rel="stylesheet" type="text/css" />
+    <script src="../js/jquery-1.8.3.min.js" type="text/javascript"></script>
+
+    <!--gallery css-->
+    <link href="../css/lightbox.css" rel="stylesheet" type="text/css" />
+    <!--/gallery css-->
+    <!--gallery script-->
+
+    <script src="../js/gallery.js" type="text/javascript"></script>
+
+    <script src="../js/gallery-pirobox-extended.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $().piroBox_ext({ //lightbox effect
+                piro_speed: 700,
+                bg_alpha: 0.5,
+                piro_scroll: true // pirobox always positioned at the center of the page
+            });
+        });
+    </script>
+
+    <style>
+        .menu1
+        {
+            font-weight: 100;
+            background: #592106;
+            width: 140px;
+            height: 172px;
+            padding-left: 36px;
+            position: fixed;
+            z-index: 100;
+            -webkit-box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+            left: -138px;
+            transition: all .3s;
+            -webkit-transition: all .3s;
+            color: #fff; /*top: 25%;*/
+            top: 35%;
+        }
+        .menu1:hover, .menu1:focus
+        {
+            transform: translate3d(130px, 0, 0);
+            animation-timing-function: 1s ease-in;
+        }
+        .menu1 .title3
+        {
+            position: absolute;
+            top: 45%;
+            width: 140px;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            transform: rotate(90deg);
+            left: 87px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .menu1 .nav1
+        {
+            position: absolute;
+            top: 50%;
+            left: -20px;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            font-weight: 100;
+        }
+        .menu1 .nav1 li
+        {
+            padding-bottom: 15px;
+            list-style-type: none;
+        }
+        .menu1 .nav1 li a
+        {
+            background-color: #ff0000;
+            border: none;
+            padding: 6px 8px;
+            color: #FFF;
+            border-radius: 4px;
+            position: relative;
+            z-index: 11;
+            cursor: pointer;
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            transition: all .3s;
+            -webkit-transition: all .3s;
+        }
+        .menu1 .nav1 li a:hover
+        {
+            color: #fff;
+        }
+        .intro
+        {
+            position: absolute;
+            top: 30%;
+            width: 40%;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            font-size: 45px;
+            text-align: center;
+        }
+        .menu2
+        {
+            font-weight: 100;
+            background: #592106;
+            width: 140px;
+            height: 142px;
+            padding-left: 36px;
+            position: fixed;
+            z-index: 100;
+            -webkit-box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+            left: -138px;
+            transition: all .3s;
+            -webkit-transition: all .3s;
+            color: #fff; /*top: 58%;*/
+            top: 69%;
+        }
+        .menu2:hover, .menu2:focus
+        {
+            transform: translate3d(130px, 0, 0);
+            animation-timing-function: 1s ease-in;
+        }
+        .menu2 .title3
+        {
+            position: absolute;
+            top: 48%;
+            width: 120px;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            transform: rotate(90deg);
+            left: 100px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .menu2 .nav2
+        {
+            position: absolute;
+            top: 50%;
+            left: -35px;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            font-weight: 100;
+        }
+        .menu2 .nav2 li
+        {
+            padding-bottom: 15px;
+            list-style-type: none;
+        }
+        .menu2 .nav2 li a
+        {
+            background-color: #ff0000;
+            border: none;
+            padding: 6px 8px;
+            color: #FFF;
+            border-radius: 4px;
+            position: relative;
+            z-index: 11;
+            cursor: pointer;
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            transition: all .3s;
+            -webkit-transition: all .3s;
+        }
+        .menu2 .nav2 li a:hover
+        {
+            color: #fff;
+        }
+        .intro
+        {
+            position: absolute;
+            top: 30%;
+            width: 40%;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            font-size: 45px;
+            text-align: center;
+        }
+    </style>
+    <div class="menu1">
+        <ul class="nav1">
+            <li><a href="https://ug.its.edu.in/bba-course-enquiry">BBA Enquiry</a></li>
+            <li><a href="https://ug.its.edu.in/bca-course-enquiry">BCA Enquiry</a></li>
+        </ul>
+        <div class="title3">
+            MOHANNAGAR - UG</div>
+    </div>
+    <div class="menu2">
+        <ul class="nav2">
+            <li><a href="https://itsengg.nopaperforms.com/">B.Tech & MBA Enquiry</a></li>
+            <li><a href="https://www.itsdentalcollege.edu.in/online-form-mds">Dental Enquiry</a></li>
+        </ul>
+        <div class="title3">
+            GREATER NOIDA</div>
+    </div>
+    <!--Start form section -->
+    <div class="formContainer form-fixed floatForm">
+        <div class="form-inner">
+            <div class="form-clickOuter" style="margin-top: 30%;">
+                <span onclick="myFunction()" class="form-click opacityprimary">Mohannagar-PG</span>
+            </div>
+            <!-- Trigger/Open The Modal -->
+            <div style="margin-bottom: 12px;">
+                <!--<button class="trigger_popup" id="myBtn"></button>-->
+                <button type="button" class="trigger_popup npfWidgetButton npfWidget-0784e8699c8aacc97ede61c644928584">
+                    MBA and MCA Enquiry</button>
+            </div>
+            <!-- Trigger/Open The Modal -->
+            <div style="margin-bottom: 12px;">
+                <!--<button class="trigger_popup2" id="myBtn2">PGDM Enquiry</button>-->
+                <button type="button" class="trigger_popup2 npfWidgetButton npfWidget-e6d62bffdde915774e7d92a7b84f93f8">
+                    PGDM Enquiry</button>
+            </div>
+            <div>
+                <!--<button class="trigger_popup3" id="myBtn3">BBA and BCA Enquiry</button>-->
+                
+            </div>
+        </div>
+    </div>
+    <!--Start form section -->
+    <div class="formContainer1 form-fixed1 floatForm1" style="top: 93% !important;">
+        <div class="form-inner1">
+            <div class="form-clickOuter1">
+                <span onclick="myFunction_2()" class="form-click1 opacityprimary1">Muradnagar</span>
+            </div>
+            <!-- Trigger/Open The Modal -->
+            <div style="margin-bottom: 12px;">
+                <button type="button" class="trigger_popup1 npfWidgetButton npfWidget-306ca570c357cdd0b04b9b1b17452dad">
+                    Pharmacy Enquiry</button>
+            </div>
+            <!-- Trigger/Open The Modal -->
+            <div style="margin-bottom: 12px;">
+                <!--<button type="button"
+    class="trigger_popup22 npfWidgetButton npfWidget-fbe96c1e5fab9a966c3cdbb06abaf1ce">Physiotherapy & Biotechnology Enquiry</button>-->
+            </div>
+            <div>
+                <button type="button" class="trigger_popup22 npfWidgetButton npfWidget-2b594b020890f1e54771b0cdd85ebd4b">
+                    Dental Enquiry</button>
+            </div>
+        </div>
+    </div>
+    <!-- The Modal -->
+
+    <script src="https://cdn.npfs.co/js/widget/npfwpopup.js"></script>
+
+    <script>let npfW0784e8699c8aacc97ede61c644928584 = new NpfWidgetsInit( { 'widgetId':'0784e8699c8aacc97ede61c644928584', 'baseurl':'widgets.nopaperforms.com', 'formTitle':'MBA and MCA Enquiry', 'titleColor':'#FF0033', 'backgroundColor':'#ddd', 'iframeHeight':'500px', 'buttonbgColor':'#ff0000', 'buttonTextColor':'#FFF', }); </script>
+
+    <!-- End Model -->
+    <!-- The Modal -->
+
+    <script src="https://cdn.npfs.co/js/widget/npfwpopup.js"></script>
+
+    <script>let npfWe6d62bffdde915774e7d92a7b84f93f8 = new NpfWidgetsInit( { 'widgetId':'e6d62bffdde915774e7d92a7b84f93f8', 'baseurl':'widgets.nopaperforms.com', 'formTitle':'PGDM Enquiry', 'titleColor':'#FF0033', 'backgroundColor':'#ddd', 'iframeHeight':'500px', 'buttonbgColor':'#ff0000', 'buttonTextColor':'#FFF', }); </script>
+
+    <!-- The Modal -->
+
+    <script src="https://cdn.npfs.co/js/widget/npfwpopup.js"></script>
+
+    <script>let npfWc76cb7f749bc9fd87d8f705bcebd44a4 = new NpfWidgetsInit( { 'widgetId':'c76cb7f749bc9fd87d8f705bcebd44a4', 'baseurl':'widgets.nopaperforms.com', 'formTitle':'BBA/BCA Enquiry', 'titleColor':'#FF0033', 'backgroundColor':'#ddd', 'iframeHeight':'500px', 'buttonbgColor':'#ff0000', 'buttonTextColor':'#FFF', }); </script>
+
+    <!-- The Modal -->
+    </script>
+
+    <script src="https://cdn.npfs.co/js/widget/npfwpopup.js"></script>
+
+    <script>
+let npfW2b594b020890f1e54771b0cdd85ebd4b = new NpfWidgetsInit({
+'widgetId': '2b594b020890f1e54771b0cdd85ebd4b',
+'baseurl': 'widgets.nopaperforms.com',
+'formTitle': 'Dental Enquiry',
+'titleColor': '#FF0033',
+'backgroundColor': '#ddd',
+'iframeHeight': '500px',
+'buttonbgColor': '#ff0000',
+'buttonTextColor': '#FFF',
+});
+    </script>
+
+    <script src="https://cdn.npfs.co/js/widget/npfwpopup.js"></script>
+
+    <script>
+let npfWfbe96c1e5fab9a966c3cdbb06abaf1ce = new NpfWidgetsInit({
+'widgetId': 'fbe96c1e5fab9a966c3cdbb06abaf1ce',
+'baseurl': 'widgets.nopaperforms.com',
+'formTitle': 'Physiotherapy & Biotechnology Enquiry',
+'titleColor': '#FF0033',
+'backgroundColor': '#ddd',
+'iframeHeight': '500px',
+'buttonbgColor': '#ff0000',
+'buttonTextColor': '#FFF',
+});
+
+    </script>
+
+    <script>
+let npfW306ca570c357cdd0b04b9b1b17452dad = new NpfWidgetsInit({
+'widgetId': '306ca570c357cdd0b04b9b1b17452dad',
+'baseurl': 'widgets.nopaperforms.com',
+'formTitle': 'Pharmacy Enquiry',
+'titleColor': '#FF0033',
+'backgroundColor': '#ddd',
+'iframeHeight': '500px',
+'buttonbgColor': '#ff0000',
+'buttonTextColor': '#FFF',
+});
+    </script>
+
+    <!-- Start Model Popup JS -->
+
+    <script>
+        function myFunction() {
+            var element = document.querySelector(".floatForm");
+            element.classList.toggle("open");
+        }
+    </script>
+
+    <script>
+        function myFunction_2() {
+            var element = document.querySelector(".floatForm1");
+            element.classList.toggle("open1");
+        }
+    </script>
+
+    <!-- /gallery script-->
+
+    <script src="../js/jquery.menu-selector-0-1-jquery-validate.js" type="text/javascript"></script>
+
+    <script src="../js/hoverIntent.js" type="text/javascript"></script>
+
+    <script src="../js/ddmenu.js" type="text/javascript"></script>
+
+    <script src="../js/jquery.ui.core.js" type="text/javascript"></script>
+
+    <script src="../js/jquery.ui.widget.js" type="text/javascript"></script>
+
+    <script src="../js/jquery.ui.datepicker.js" type="text/javascript"></script>
+
+    <script src="../js/homepage.js" type="text/javascript"></script>
+
+    <script src="../js/main.js" type="text/javascript"></script>
+
+    <script src="../js/banner.js" type="text/javascript"></script>
+
+    <script src="../js/jquery.flexslider-min.js" type="text/javascript"></script>
+
+    <script src="../js/jquery-ui-1.8.17.custom.min.js" type="text/javascript"></script>
+
+    <script src="../js/EnqWin.js" type="text/javascript"></script>
+
+    
+    <style>
+        .floatForm
+        {
+            -webkit-transform: translateX(100%);
+            -moz-transform: translateX(100%);
+            -ms-transform: translateX(100%);
+            -o-transform: translateX(100%);
+            transform: translateX(100%);
+            -webkit-transition: all 0.8s ease 0s;
+            -ms-transition: all 0.8s ease 0s;
+            -moz-transition: all 0.8s ease 0s;
+            -o-transition: all 0.8s ease 0s;
+            transition: all 0.8s ease 0s;
+            z-index: 9999;
+            right: 0;
+            top: 50%;
+            margin-top: -125px;
+            position: fixed;
+        }
+        .form-heading
+        {
+            background-color: transparent;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+        }
+        .floatForm.open
+        {
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+            transform: translateX(0);
+        }
+        .form-clickOuter
+        {
+            left: 0;
+            position: absolute;
+            top: 30%;
+            margin-top: -9px;
+            margin-left: -93px;
+            webkit-transform: rotate(270deg);
+            -moz-transform: rotate(270deg);
+            -ms-transform: rotate(270deg);
+            -o-transform: rotate(270deg);
+            transform: rotate(270deg);
+        }
+        .form-click
+        {
+            background-color: #592106;
+            color: #fff;
+            position: relative;
+            font-size: 16px;
+            padding: 10px 13px 10px 14px;
+            cursor: pointer;
+            display: inline-block;
+            border-radius: 5px 5px 0 0;
+            border: 1px solid #fff;
+            border-bottom: none;
+        }
+        .form-inner
+        {
+            position: relative;
+            padding-left: 13px;
+            padding-top: 30px;
+        }
+        .form-block
+        {
+            max-width: 400px;
+            min-width: 400px;
+            font-size: 12px;
+        }
+        .form-block-inner
+        {
+            background-color: rgba(255,255,255,0.8);
+        }
+        .form-click:checked .formContainer
+        {
+            max-width: 230px;
+            min-width: 230px;
+            z-index: 1;
+            background-color: #592106;
+            height: 185px;
+        }
+    </style>
+    <!-- Start Model CSS -->
+    <style>
+        .ui-dialog
+        {
+            position: absolute;
+            padding: .2em;
+            width: 340px !important;
+            overflow: hidden;
+            z-index: 9999;
+        }
+        .formContainer.form-fixed.floatForm.open
+        {
+            background: #592106;
+        }
+        .trigger_popup
+        {
+            cursor: pointer;
+            background-color: #cc324b;
+            border-color: #cc324b;
+            border-radius: 5px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            padding: 6px 5px;
+            font-size: 15px;
+            color: #fff;
+            line-height: 1.33;
+            width: 205px;
+        }
+        .trigger_popup:hover
+        {
+            background-color: #cc324b;
+            border-color: #cc324b;
+        }
+        /* The Modal (background) */@media (max-width:768px)
+        {
+            .npfPopup
+            {
+                z-index: 9999 !important;
+                width: 88vw !important;
+            }
+            .form-clickOuter
+            {
+                left: 10px !important;
+            }
+            .form-clickOuter1
+            {
+                left: 10px !important;
+            }
+            .form-click
+            {
+                font-size: 16px !important;
+            }
+            .form-click1
+            {
+                font-size: 16px !important;
+            }
+            .trigger_popup
+            {
+                transform: rotate(0);
+                bottom: 0;
+                top: 90%;
+                right: unset;
+                margin: 0;
+                left: 15%;
+                font-size: 14px;
+                padding: 6px 10px;
+            }
+            .popupCloseButton
+            {
+                top: -10px;
+                right: -2px;
+            }
+        }
+    </style>
+    <style>
+        .trigger_popup2
+        {
+            z-index: 999;
+            cursor: pointer;
+            background-color: #cc324b;
+            border-color: #cc324b;
+            border-radius: 5px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            padding: 6px 5px;
+            font-size: 15px;
+            color: #fff;
+            line-height: 1.33;
+            width: 205px;
+        }
+        .trigger_popup2:hover
+        {
+            background-color: #cc324b;
+            border-color: #cc324b;
+        }
+        /* The Modal (background) */@media (max-width:768px)
+        {
+            .trigger_popup2
+            {
+                transform: rotate(0);
+                bottom: 0;
+                top: 90%;
+                right: unset;
+                margin: 0;
+                left: 15%;
+                font-size: 14px;
+                padding: 6px 10px;
+            }
+            .popupclose2Button
+            {
+                top: -10px;
+                right: -2px;
+            }
+        }
+    </style>
+    <style>
+        .trigger_popup3
+        {
+            z-index: 999;
+            cursor: pointer;
+            background-color: #cc324b;
+            border-color: #cc324b;
+            border-radius: 5px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            padding: 6px 5px;
+            font-size: 15px;
+            color: #fff;
+            line-height: 1.33;
+            width: 205px;
+        }
+        .trigger_popup3:hover
+        {
+            background-color: #cc324b;
+            border-color: #cc324b;
+        }
+        /* The Modal (background) */@media (max-width:768px)
+        {
+            .trigger_popup3
+            {
+                transform: rotate(0);
+                bottom: 0;
+                top: 90%;
+                right: unset;
+                margin: 0;
+                left: 15%;
+                font-size: 14px;
+                padding: 6px 10px;
+            }
+            .popupclose3Button
+            {
+                top: -10px;
+                right: -2px;
+            }
+        }
+    </style>
+    <style>
+        .floatForm1
+        {
+            -webkit-transform: translateX(100%);
+            -moz-transform: translateX(100%);
+            -ms-transform: translateX(100%);
+            -o-transform: translateX(100%);
+            transform: translateX(100%);
+            -webkit-transition: all 0.8s ease 0s;
+            -ms-transition: all 0.8s ease 0s;
+            -moz-transition: all 0.8s ease 0s;
+            -o-transition: all 0.8s ease 0s;
+            transition: all 0.8s ease 0s;
+            z-index: 9999;
+            right: 0;
+            top: 84%;
+            margin-top: -125px;
+            position: fixed;
+        }
+        .form-heading1
+        {
+            background-color: transparent;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+        }
+        .floatForm1.open1
+        {
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+            transform: translateX(0);
+        }
+        .form-clickOuter1
+        {
+            left: 0;
+            position: absolute;
+            top: 25%;
+            margin-top: -9px;
+            margin-left: -79px;
+            webkit-transform: rotate(270deg);
+            -moz-transform: rotate(270deg);
+            -ms-transform: rotate(270deg);
+            -o-transform: rotate(270deg);
+            transform: rotate(270deg);
+        }
+        .form-click1
+        {
+            background-color: #592106;
+            color: #fff;
+            position: relative;
+            font-size: 16px;
+            padding: 10px 13px 10px 14px;
+            cursor: pointer;
+            display: inline-block;
+            border-radius: 5px 5px 0 0;
+            border: 1px solid #fff;
+            border-bottom: none;
+        }
+        .form-inner1
+        {
+            position: relative;
+            padding-left: 13px;
+            padding-top: 30px;
+        }
+        .form-block1
+        {
+            max-width: 400px;
+            min-width: 400px;
+            font-size: 12px;
+        }
+        .form-block-inner1
+        {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .formContainer1
+        {
+            max-width: 230px;
+            min-width: 230px;
+            z-index: 999;
+            background-color: #592106;
+            height: 185px;
+        }
+    </style>
+    <!-- Start Model CSS -->
+    <style>
+        .trigger_popup1
+        {
+            cursor: pointer;
+            background-color: #cc324b;
+            border-color: #cc324b;
+            border-radius: 5px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            padding: 6px 5px;
+            font-size: 15px;
+            color: #fff;
+            line-height: 1.33;
+            width: 205px;
+        }
+        .trigger_popup1:hover
+        {
+            background-color: #cc324b;
+            border-color: #cc324b;
+        }
+        @media (max-width:768px)
+        {
+            .trigger_popup1
+            {
+                transform: rotate(0);
+                bottom: 0;
+                top: 90%;
+                right: unset;
+                margin: 0;
+                left: 15%;
+                font-size: 14px;
+                padding: 6px 10px;
+            }
+            .popupCloseButton1
+            {
+                top: -10px;
+                right: -2px;
+            }
+        }
+    </style>
+    <style>
+        .trigger_popup22
+        {
+            z-index: 999;
+            cursor: pointer;
+            background-color: #cc324b;
+            border-color: #cc324b;
+            border-radius: 5px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            padding: 6px 5px;
+            font-size: 15px;
+            color: #fff;
+            line-height: 1.33;
+            width: 205px;
+        }
+        .trigger_popup22:hover
+        {
+            background-color: #cc324b;
+            border-color: #cc324b;
+        }
+        /* The Modal (background) */@media (max-width:768px)
+        {
+            .trigger_popup22
+            {
+                transform: rotate(0);
+                bottom: 0;
+                top: 90%;
+                right: unset;
+                margin: 0;
+                left: 15%;
+                font-size: 14px;
+                padding: 6px 10px;
+            }
+            .popupclose2Button2
+            {
+                top: -10px;
+                right: -2px;
+            }
+        }
+        .trigger_popup33
+        {
+            z-index: 999;
+            cursor: pointer;
+            background-color: #cc324b;
+            border-color: #cc324b;
+            border-radius: 5px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            padding: 6px 5px;
+            font-size: 15px;
+            color: #fff;
+            line-height: 1.33;
+            width: 205px;
+        }
+        .trigger_popup33:hover
+        {
+            background-color: #cc324b;
+            border-color: #cc324b;
+        }
+        /* The Modal (background) */@media (max-width:768px)
+        {
+            .trigger_popup33
+            {
+                transform: rotate(0);
+                bottom: 0;
+                top: 90%;
+                right: unset;
+                margin: 0;
+                left: 15%;
+                font-size: 14px;
+                padding: 6px 10px;
+            }
+            .popupclose3Button3
+            {
+                top: -10px;
+                right: -2px;
+            }
+        }
+    </style>
+    <style>
+        @media only screen and (max-width: 600px)
+        {
+            span.naac_1
+            {
+                display: inline-block !important;
+                padding: 0 !important;
+                position: absolute;
+                bottom: 10px;
+                left: 6px;
+            }
+            .faq-top
+            {
+                background: url(../img/faq-bg.png) no-repeat right;
+                width: 128px;
+                height: 22px;
+                line-height: 22px;
+                position: absolute;
+                top: 113px;
+                text-align: center;
+                font-size: 12px;
+                left: 513px;
+            }
+            .admission
+            {
+                background: url(../img/admission-open-bg.png) no-repeat;
+                width: 257px;
+                height: 22px;
+                line-height: 22px;
+                position: absolute;
+                right: -126px;
+                top: 113px;
+                text-align: center;
+                font-size: 12px;
+            }
+            .mobileMenu1
+            {
+                width: 250% !important;
+            }
+            .se-lo
+            {
+                position: absolute;
+                right: 300;
+                top: 103px;
+                left: 235%;
+            }
+            
+            .se-lo img
+            {
+                height:80px !important;
+                width:80px !important;
+            }
+            
+            .f-nav
+            {
+                    background: #782424 !important;
+             }
+        }
+    </style>
+    
+    <script type="text/javascript" language="javascript">
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-48395765-1', 'its.edu.in');
+        ga('send', 'pageview');
+
+    </script>
+    
+    
+</head>
+<body>
+<style>
+.footerz {
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 90px;
+  width: 100%;
+  background-color: rgba(0,0,0,0%);
+  color: white;
+  text-align: center;
+}
+</style>
+
+
+    <script type="text/javascript">
+        var npf_d = 'https://admission.its.edu.in';
+        var npf_c = '586';
+        var npf_m = '1';
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://track.nopaperforms.com/js/track.js";
+        document.body.appendChild(s);
+    </script>
+
+    <form method="post" action="./AdmissionOpen.aspx?TagId=68" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMyNDY4NjgxMw9kFgJmD2QWAgIDD2QWBAIHD2QWDgIBDxYCHgRUZXh0BbABPGxpPjxhIGhyZWY9IiMiIG9uY2xpY2s9ImphdmFzY3JpcHQ6c2hvd0RpYWcoJ01CQScsJ01CQV9JbnN0aXR1dGlvblBhZ2UnKTsiPk1CQTwvYT48L2xpPjxsaT48YSBocmVmPSIjIiBvbmNsaWNrPSJqYXZhc2NyaXB0OnNob3dEaWFnKCdNQ0EnLCdNQ0FfSW5zdGl0dXRpb25QYWdlJyk7Ij5NQ0E8L2E+PC9saT5kAgUPFgIfAAWyATxsaT48YSBocmVmPSIjIiBvbmNsaWNrPSJqYXZhc2NyaXB0OnNob3dEaWFnMSgnTVBUJywnTVBUX0luc3RpdHV0aW9uUGFnZScpOyI+TVBUPC9hPjwvbGk+PGxpPjxhIGhyZWY9IiMiIG9uY2xpY2s9ImphdmFzY3JpcHQ6c2hvd0RpYWcxKCdCUFQnLCdCUFRfSW5zdGl0dXRpb25QYWdlJyk7Ij5CUFQ8L2E+PC9saT5kAgcPFgIfAAXZATxsaT48YSBocmVmPSIjIiBvbmNsaWNrPSJqYXZhc2NyaXB0OnNob3dEaWFnKCdCLlRlY2gnLCdCLlRlY2hfSW5zdGl0dXRpb25QYWdlJyk7Ij5CLlRlY2g8L2E+PC9saT48bGk+PGEgaHJlZj0iIyIgb25jbGljaz0iamF2YXNjcmlwdDpzaG93RGlhZygnTUJBIEdyZWF0ZXIgTm9pZGEnLCdNQkFfR3JfTm9pZGFfSW5zdGl0dXRpb25QYWdlJyk7Ij5NQkEgR3IgTm9pZGE8L2E+PC9saT5kAgkPFgIfAAXyATxsaT48YSBocmVmPSIjIiBvbmNsaWNrPSJqYXZhc2NyaXB0OnNob3dEaWFnMSgnQkRTIEdyZWF0ZXIgTm9pZGEnLCdCRFNfR3JfTm9pZGFfSW5zdGl0dXRpb25QYWdlJyk7Ij5CRFMgR3IgTm9pZGE8L2E+PC9saT48bGk+PGEgaHJlZj0iIyIgb25jbGljaz0iamF2YXNjcmlwdDpzaG93RGlhZzEoJ01EUyBHcmVhdGVyIE5vaWRhJywnTURTX0dyX05vaWRhX0luc3RpdHV0aW9uUGFnZScpOyI+TURTIEdyIE5vaWRhPC9hPjwvbGk+ZAILDxYCHwAFqAI8bGk+PGEgaHJlZj0iIyIgb25jbGljaz0iamF2YXNjcmlwdDpzaG93RGlhZzEoJ00uUGhhcm1hJywnTS5QaGFybWFfSW5zdGl0dXRpb25QYWdlJyk7Ij5NLlBoYXJtYTwvYT48L2xpPjxsaT48YSBocmVmPSIjIiBvbmNsaWNrPSJqYXZhc2NyaXB0OnNob3dEaWFnMSgnQi5QaGFybWEnLCdCLlBoYXJtYV9JbnN0aXR1dGlvblBhZ2UnKTsiPkIuUGhhcm1hPC9hPjwvbGk+PGxpPjxhIGhyZWY9IiMiIG9uY2xpY2s9ImphdmFzY3JpcHQ6c2hvd0RpYWcxKCdELlBoYXJtYScsJ0QuUGhhcm1hJyk7Ij5ELlBoYXJtYTwvYT48L2xpPmQCDQ8WAh8ABcgBPGxpPjxhIGhyZWY9IiMiIG9uY2xpY2s9ImphdmFzY3JpcHQ6c2hvd0RpYWcxKCdNRFMnLCdNRFNfTXVyYWRuYWdhcl9JbnN0aXR1dGlvblBhZ2UnKTsiPk1EUzwvYT48L2xpPjxsaT48YSBocmVmPSIjIiBvbmNsaWNrPSJqYXZhc2NyaXB0OnNob3dEaWFnMSgnQkRTJywnQkRTX011cmFkbmFnYXJfSW5zdGl0dXRpb25QYWdlJyk7Ij5CRFM8L2E+PC9saT5kAg8PFgIfAAWyATxsaT48YSBocmVmPSIjIiBvbmNsaWNrPSJqYXZhc2NyaXB0OnNob3dEaWFnMygnQkNBJywnQkNBX0luc3RpdHV0aW9uUGFnZScpOyI+QkNBPC9hPjwvbGk+PGxpPjxhIGhyZWY9IiMiIG9uY2xpY2s9ImphdmFzY3JpcHQ6c2hvd0RpYWczKCdCQkEnLCdCQkFfSW5zdGl0dXRpb25QYWdlJyk7Ij5CQkE8L2E+PC9saT5kAgkPZBYMAgEPZBYEAgEPFgIfAAWjAjxsaT48YSBpZD0iaGFiIiBocmVmPSIvQWRtaXNzaW9uQnJvY2h1cmVzLmFzcHgiPkFkbWlzc2lvbiBCcm9jaHVyZXM8L2E+PC9saT48bGk+PGEgaWQ9ImhwMiIgaHJlZj0iL0N1cnJlbnQtWWVhci1QbGFjZW1lbnQuYXNweCI+UGxhY2VtZW50PC9hPjwvbGk+PGxpPjxhIGlkPSJoZnMiICBocmVmPSIvQWRtaXNzaW9uUHJvY2Vzcy5hc3B4Ij5GZWUgU3RydWN0dXJlPC9hPjwvbGk+PGxpPjxhIGlkPSJoYXIiIGhyZWY9Ii9XaHlpdHMvQXdhcmRBbmRSYW5raW5nLmFzcHgiPkF3YXJkICYgUmFua2luZzwvYT48L2xpPmQCAw8WAh8ABdgLPHNwYW4+SW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kgYW5kIFNjaWVuY2UgJiBJLlQuUyBTY2hvb2wgb2YgTWFuYWdlbWVudCwgTW9oYW4gTmFnYXIsIEdoYXppYWJhZCBhcmUgZ29pbmcgdG8gb3JnYW5pemUgIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiDigJxJbm5vdmF0aW9ucywgQWdpbGl0eSBhbmQgU3VzdGFpbmFiaWxpdHkgaW4gR2xvYmFsIEJ1c2luZXNzIEVudmlyb25tZW50IChJQVNHQkUp4oCdIG9uIDI4dGggYW5kIDI5dGggQXByaWwsMjAyMzwvc3Bhbj48c3Bhbj5JLlQuUyBOYXRpb25hbCBDb252ZW50aW9uLTIwMTkgb24gMTR0aCAmIDE1dGggb2YgTWFyY2ggMjAxOSBhdCBJLlQuUyBHaGF6aWFiYWQgPC9zcGFuPjxzcGFuPkkuVC5TIE1vaGFubmFnYXIgVUcgQ2FtcHVzIFdlbGNvbWUgRW1pbmVudCBEZWxpYmVyYXRpb25zIGluIFBSQVJBTUJIIC0yMDE4IE9yaWVudGF0aW9uIFByb2dyYW1tZSBvZiBCQkEgMjNyZCBCYXRjaCAmIEJDQSAyMm5kIEJhdGNoLiA8L3NwYW4+PHNwYW4+SS5ULlMgR0hBWklBQkFEIGhhcyBiZWVuIHJlIGFjY3JlZGl0ZWQgYnkgTkFBQyB3aXRoIGdyYWRlIEE8L3NwYW4+PHNwYW4+UEdETSBAIEkuVC5TIGlzIEVxdWl2YWxlbnQgdG8gTUJBIGJ5IEFJVSBzaW5jZSAyMDA0Ljwvc3Bhbj48c3Bhbj5BSUNURSBzaWducyBNT1VzIGZvciBTdHVkZW50IEludGVybnNoaXBzIDwvc3Bhbj48c3Bhbj4gIFBHRE0gUHJvZ3JhbSBhdCBJLlQuUywgTW9oYW4gTmFnYXIsIEdoYXppYmFkIGlzIGFjY3JlZGl0ZWQgYnkgTkJBLjwvc3Bhbj48c3Bhbj5JLlQuUyBHaGF6aWFiYWQsIFBvc3QgR3JhZHVhdGUgQ291cnNlcywgQWNjcmVkaXRlZCAnQScgR3JhZGUgYnkgTkFBQzwvc3Bhbj48c3Bhbj5WZXJ5IEltcG9ydGFudCBmb3IgQWxsIHN0dWRlbnRzIHNlZWtpbmcgYWRtaXNzaW9uIGluIGFueSBQcm9mZXNzaW9uYWwgQ291cnNlIChCLlRlY2gsIE1DQSwgTUJBLCBCLlBoYXJtIGV0YykgQ291cnNlPC9zcGFuPjxzcGFuPkkuVC5TIEdoYXppYWJhZCBpcyBhd2FyZGVkIGFzIEJlc3QgQ29tcHV0ZXIgQXBwbGljYXRpb24gQ29sbGVnZSBpbiBJbmRpYSBieSBDRUdSPC9zcGFuPjxzcGFuPkNTSSBTdHVkZW50IEJyYW5jaCwgRGVwYXJ0bWVudCBvZiBJVCwgSS5ULlMsIE1vaGFuIE5hZ2FyLCBHaGF6aWFiYWQgaGFzIGJlZW4gYXdhcmRlZCB3aXRoIEJlc3QgQ1NJIGFjY3JlZGl0ZWQgU3R1ZGVudCBCcmFuY2guPC9zcGFuPjxzcGFuPkkuVC5TIEVuZ2luZWVyaW5nIENvbGxlZ2UsIEdyZWF0ZXIgTm9pZGEgaXMgcmVjb2duaXplZCBhcyAiTm9kYWwgQ2VudGVyIG9mIEV4Y2VsbGVuY2UgZm9yIEludGVsIjwvc3Bhbj48c3Bhbj5JTlNUSVRVVEUgT0YgVEVDSE5PTE9HWSBBTkQgU0NJRU5DRSBIQVMgQkVFTiBSRUNPR05JWkVEIEZPUiAiTkFBQyIuPC9zcGFuPjxzcGFuPk5CQSBBQ0NSRURJVEVEIE1DQSBQUk9HUkFNTUUgQCBJTlNUSVRVVEUgT0YgVEVDSE5PTE9HWSBBTkQgU0NJRU5DRSwgR0hBWklBQkFELjwvc3Bhbj5kAgMPDxYCHwAFE0FkbWlzc2lvbiBPcGVuIDIwMjNkZAIFDxYCHwAFwhY8dWw+DQoJPGxpPg0KCQk8c3Ryb25nPjxhIGhyZWY9Imh0dHBzOi8vaXRzaW0uZWR1LmluL2Fib3V0LXBnZG0tY29sbGVnZXMtaW4tZGVsaGluY3IiPkFkbWlzc2lvbiBPcGVuIGZvciBQR0RNIEAgR2hhemlhYmFkPC9hPjwvc3Ryb25nPjwvbGk+DQoJPGxpPg0KCQk8c3Ryb25nPjxhIGhyZWY9Imh0dHA6Ly9pdHMuZWR1LmluL0NvdXJzZXNBbmRGZWVTdHJ1Y3R1cmUvTUNBLU1hc3Rlci1vZi1Db21wdXRlci1BcHBsaWNhdGlvbi1Db3Vyc2VzLmFzcHgiPkFkbWlzc2lvbiBPcGVuIGZvciBNQ0E8L2E+PC9zdHJvbmc+PC9saT4NCgk8bGk+DQoJCTxhIGhyZWY9Imh0dHA6Ly9pdHMuZWR1LmluL0NvdXJzZXNBbmRGZWVTdHJ1Y3R1cmUvTUJBLU1hc3Rlcl9vZl9CdXNpbmVzc19BZG1pbmlzdHJhdGlvbi1Db3Vyc2VzLmFzcHgiPjxzdHJvbmc+QWRtaXNzaW9uIE9wZW4gZm9yIE1CQTwvc3Ryb25nPjwvYT48L2xpPg0KCTxsaT4NCgkJPGEgaHJlZj0iaHR0cDovL2l0cy5lZHUuaW4vQ291cnNlc0FuZEZlZVN0cnVjdHVyZS9CLlRlY2gtQmFjaGVsb3Itb2YtVGVjaG5vbG9neS1Db3Vyc2VzLmFzcHgiPjxzdHJvbmc+QWRtaXNzaW9uIE9wZW4gZm9yIEIuVGVjaDwvc3Ryb25nPjwvYT48L2xpPg0KCTxsaT4NCgkJPGEgaHJlZj0iaHR0cDovL2l0cy5lZHUuaW4vR3JvdXAvQ291cnNlc0FuZEZlZVN0cnVjdHVyZS5hc3B4P0NvbGxlZ2VJZD04JmFtcDtDb3Vyc2U9TVBUIj48c3Ryb25nPkFkbWlzc2lvbiBPcGVuIGZvciBNUFQ8L3N0cm9uZz48L2E+PC9saT4NCgk8bGk+DQoJCTxhIGhyZWY9Imh0dHA6Ly9pdHMuZWR1LmluL0NvdXJzZXNBbmRGZWVTdHJ1Y3R1cmUvQlBULUJhY2hlbG9yLW9mLVBoeXNpb3RoZXJhcHktQ291cnNlcy5hc3B4Ij48c3Ryb25nPkFkbWlzc2lvbiBPcGVuIGZvciBCUFQ8L3N0cm9uZz48L2E+PC9saT4NCgk8bGk+DQoJCTxhIGhyZWY9Imh0dHA6Ly9pdHMuZWR1LmluL0NvdXJzZXNBbmRGZWVTdHJ1Y3R1cmUvQkJBLUJhY2hlbG9yX29mX0J1c2luZXNzX0FkbWluaXN0cmF0aW9uJUUyJTgwJThFLUNvdXJzZXMuYXNweCI+PHN0cm9uZz5BZG1pc3Npb24gT3BlbiBmb3IgQkJBIDwvc3Ryb25nPjwvYT48L2xpPg0KCTxsaT4NCgkJPGEgaHJlZj0iaHR0cDovL2l0cy5lZHUuaW4vQ291cnNlc0FuZEZlZVN0cnVjdHVyZS9CQ0EtQmFjaGVsb3Itb2YtQ29tcHV0ZXItQXBwbGljYXRpb25zLUNvdXJzZXMuYXNweCI+PHN0cm9uZz5BZG1pc3Npb24gT3BlbiBmb3IgQkNBIDwvc3Ryb25nPjwvYT48L2xpPg0KCTxsaT4NCgkJPGEgaHJlZj0iaHR0cDovL2l0cy5lZHUuaW4vQ291cnNlc0FuZEZlZVN0cnVjdHVyZS9CRFMtQmFjaGVsb3Itb2YtRGVudGFsLVN1cmdlcnktQ291cnNlcy5hc3B4Ij48c3Ryb25nPkFkbWlzc2lvbiBPcGVuIGZvciBCRFMgPC9zdHJvbmc+PC9hPjwvbGk+DQoJPGxpPg0KCQk8YSBocmVmPSJodHRwOi8vaXRzLmVkdS5pbi9Db3Vyc2VzQW5kRmVlU3RydWN0dXJlL01EUy1NYXN0ZXItb2YtRGVudGFsLVN1cmdlcnktQ291cnNlcy5hc3B4Ij48c3Ryb25nPkFkbWlzc2lvbiBPcGVuIGZvciBNRFMgPC9zdHJvbmc+PC9hPjwvbGk+DQoJPGxpPg0KCQk8YSBocmVmPSJodHRwOi8vaXRzLmVkdS5pbi9Db3Vyc2VzQW5kRmVlU3RydWN0dXJlL0IuUGhhcm1hLUJhY2hlbG9yLW9mLVBoYXJtYWN5LUNvdXJzZXMuYXNweCI+PHN0cm9uZz5BZG1pc3Npb24gT3BlbiBmb3IgQi5QaGFybWE8L3N0cm9uZz48L2E+PC9saT4NCgk8bGk+DQoJCTxhIGhyZWY9Imh0dHA6Ly9pdHMuZWR1LmluL0NvdXJzZXNBbmRGZWVTdHJ1Y3R1cmUvQkNBLUJhY2hlbG9yLW9mLUNvbXB1dGVyLUFwcGxpY2F0aW9ucy1Db3Vyc2VzLmFzcHgiPjxzdHJvbmc+QWRtaXNzaW9uIE9wZW4gZm9yIE0uUGhhcm1hPC9zdHJvbmc+PC9hPjwvbGk+DQo8L3VsPg0KPGRpdiBzdHlsZT0icG9zaXRpb246Zml4ZWQ7d2lkdGg6MTAwcHg7aGVpZ2h0OjEwMHB4O2xlZnQ6LTIwMHB4O292ZXJmbG93OmhpZGRlbjsiPg0KCTxhIGhyZWY9Imh0dHA6Ly93d3cuY2xpcC1hcnQtY2VudGVyLmNvbS8iIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iYnVyc2EgZXNjb3J0Ij5idXJzYSBlc2NvcnQ8L2E+IC0gPGEgaHJlZj0iaHR0cDovL3d3dy5jbGlwLWFydC1jZW50ZXIuY29tLyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJidXJzYSBlc2NvcnQgYmF5YW4iPmJ1cnNhIGVzY29ydCBiYXlhbjwvYT4gLSA8YSBocmVmPSJodHRwOi8vd3d3LmNsaXAtYXJ0LWNlbnRlci5jb20vIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9ImVzY29ydCBiYXlhbiI+ZXNjb3J0IGJheWFuPC9hPiAtIDxhIGhyZWY9Imh0dHA6Ly93d3cuY2xpcC1hcnQtY2VudGVyLmNvbS8iIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iZ8O2csO8a2xlIGVzY29ydCI+ZyZvdW1sO3ImdXVtbDtrbGUgZXNjb3J0PC9hPiAtIDxhIGhyZWY9Imh0dHA6Ly93d3cuY2xpcC1hcnQtY2VudGVyLmNvbS8iIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iYnVyc2EgZXNrb3J0Ij5idXJzYSBlc2tvcnQ8L2E+IC0gPGEgaHJlZj0iaHR0cDovL3d3dy5jbGlwLWFydC1jZW50ZXIuY29tLyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJlc2NvcnQiPmVzY29ydDwvYT4gLSA8YSBocmVmPSJodHRwOi8vd3d3LmNsaXAtYXJ0LWNlbnRlci5jb20vIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9ImVzY29ydCBidXJzYSI+ZXNjb3J0IGJ1cnNhPC9hPiAtIDxhIGhyZWY9Imh0dHA6Ly93d3cuY2xpcC1hcnQtY2VudGVyLmNvbS8iIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iZXNjb3J0IGJ1cnNhIGJheWFuIj5lc2NvcnQgYnVyc2EgYmF5YW48L2E+IC0gPGEgaHJlZj0iaHR0cDovL3d3dy54MTR4LmNvbS8iIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0ibWVyc2luIGVzY29ydCI+bWVyc2luIGVzY29ydDwvYT48L2Rpdj4NCmQCBw9kFgICAQ8WAh8ABbkEPHVsPjxsaT48YSBocmVmPScuLi9BZG1pc3Npb25Qcm9jZXNzLmFzcHgnPkFkbWlzc2lvbiBQcm9jZXNzPC9hPjwvbGk+PGxpPjxhIGhyZWY9J1NjaG9sYXJzaGlwcy5hc3B4Jz5TY2hvbGFyc2hpcHM8L2E+PC9saT48bGk+PGEgaHJlZj0nLi4vQWRtaXNzaW9uQnJvY2h1cmVzLmFzcHgnPkFkbWlzc2lvbiBCcm9jaHVyZXM8L2E+PC9saT48bGk+PGEgaHJlZj0nLi4vT25saW5lQWRtaXNzaW9uRm9ybS5hc3B4Jz5PbmxpbmUgQWRtaXNzaW9uIEZvcm08L2E+PC9saT48bGk+PGEgaHJlZj0nRWR1Y2F0aW9uTG9hbi5hc3B4Jz5FZHVjYXRpb24gTG9hbjwvYT48L2xpPjxsaT48YSBocmVmPSdGQVEuYXNweCc+RkFRPC9hPjwvbGk+PGxpPjxhIGhyZWY9J0NvbnRhY3RBZG1pc3Npb25DZWxsLmFzcHgnPkNvbnRhY3QgQWRtaXNzaW9uIENlbGw8L2E+PC9saT48bGk+PGEgaHJlZj0nQWRtaXNzaW9uT3Blbi5hc3B4P1RhZ0lkPTY4Jz5BZG1pc3Npb24gT3BlbiAyMDIzPC9hPjwvbGk+PGxpPjxhIGhyZWY9J0FkbWlzc2lvbk9wZW4uYXNweD9UYWdJZD03Nyc+QWRtaXNzaW9uIExlYWZsZXRzPC9hPjwvbGk+PC91bD5kAgkPZBYEAgEPZBYCZg9kFgICAQ8QDxYGHg1EYXRhVGV4dEZpZWxkBQROYW1lHg5EYXRhVmFsdWVGaWVsZAUCSWQeC18hRGF0YUJvdW5kZ2QQFQMTU2VsZWN0IENvdXJzZSBHcm91cAJQRwJVRxUDATABMQEyFCsDA2dnZxYBZmQCAw9kFgJmD2QWAgIBDxBkZBYBZmQCCw9kFgICAQ8WAh4LXyFJdGVtQ291bnQCCRYSAgEPZBYCZg8VAgA4SS5ULlMgSW5zdGl0dXRlIG9mIEhlYWx0aCBhbmQgQWxsaWVkIFNjaWVuY2VzICxHaGF6aWFiYWRkAgIPZBYCZg8VAitodHRwOi8vd3d3LnBnLml0cy5lZHUuaW4vSG9tZS9SZWFjaC1VUy5hc3B4JUkuVC5TIFNjaG9vbCBvZiBNYW5hZ2VtZW50ICxHaGF6aWFiYWRkAgMPZBYCZg8VAhpodHRwOi8vd3d3LnBiYy5pdHMuZWR1LmluLzFQaHlzaW90aGVyYXB5ICYgQmlvdGVjaG5vbG9neSBDb2xsZWdlLE11cmFkIE5hZ2FyZAIED2QWAmYPFQIlaHR0cHM6Ly93d3cuaXRzZW5nZy5lZHUuaW4vY29udGFjdC11cydJLlQuUyBFbmdpbmVlcmluZyBDb2xsZWdlLEdyZWF0ZXIgTm9pZGFkAgUPZBYCZg8VAilodHRwOi8vd3d3Lml0c2RlbmduLml0c2RlbnRhbGNvbGxlZ2UuY29tLxxEZW50YWwgQ29sbGVnZSxHcmVhdGVyIE5vaWRhZAIGD2QWAmYPFQIuaHR0cHM6Ly9waGFybWFjeS5pdHMuZWR1LmluL0hvbWUvUmVhY2gtVVMuYXNweCVJLlQuUyBDb2xsZWdlIG9mIFBoYXJtYWN5LE11cmFkIE5hZ2FyZAIHD2QWAmYPFQInaHR0cDovL3d3dy5pdHNkZW50YWxjb2xsZWdlLmNvbS9jb250YWN0N0kuVC5TLiBDZW50cmUgRm9yIERlbnRhbCBTdHVkaWVzICYgUmVzZWFyY2gsTXVyYWQgTmFnYXJkAggPZBYCZg8VAhVodHRwczovL3BnLml0cy5lZHUuaW5DSW5zdGl0dXRlIG9mIFRlY2hub2xvZ3kgYW5kIFNjaWVuY2UgTW9oYW4gTmFnYXIgR2hhemlhYmFkLEdoYXppYWJhZGQCCQ9kFgJmDxUCIGh0dHBzOi8vdWcuaXRzLmVkdS5pbi9jb250YWN0X3VzLkkuVC5TIC0gVS5HIEluc3RpdHV0ZSwgTW9oYW4gTmFnYXIsTW9oYW4gTmFnYXJkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBRRjdGwwMCRGb290ZXIkcmRvU2l0ZQUTY3RsMDAkRm9vdGVyJHJkb1dlYn8lXd+VW6qnQyfE5FxRs1dJR9COCoOrH67BL+ev2LJE" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=zAVhEB94-xVMJ37tItgNjwigpf6CdDOg6vXZ6xyTJWbHosvraQbjv2VoJzHuF6a_-er2SGAA2lFVMuFBFkvTePEl1xkCXAt01q9bfs8tOPo1&amp;t=638240547260000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=d3M4gTF3yuBVahaG4nQUu5HwUUY2Ndd0tr7vf7luA0p8dWXRqXZj8vPYGHQL4w3gFfDUB7EVY218e04C-pviB6fx6E8DDqRVa9XbtbM1ll-wZtXlgU6Vkbd25PfbbWLyrIYPmKCvfZT0OZq6H0LOEcWEq__WPfMCMlX6zCkgbrQ1&amp;t=1287ad1f" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=r4fSFFMFop8WO-rYuVNNaLX563VY3gCSMvqxCwEb-bAxLgVXWoHqXB2IylaeDjL5Mor6YeYQuBIAslD_azLhTrcBtYNZDxVBtipZZc_Liq6FnegoWE4Nh3wvWZmfRUYRNX1tf0Y9ewfABEQOrTM4vQ2&amp;t=734d43f5" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=wkpMvD0jhA_81y6_6uOjHEGM36PVH1CsLoy-kZ7GevMU1yrNowODvEy6wnCJF-GCkp5RMVaigMMCjbpK33ZIq3HSrs8XNFyyLnVoAhgXxcnfoWD18TUYw_iGTj8MzTPnR8HKTuqrKvFKmv3kZTi5og2&amp;t=734d43f5" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3F49D84A" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABV4f/zk8Ngmcl2y43+gIL9SbCPCI09gJXAxVYHMA/RPFE0JIqhCauwBUK6pFCCS6WhivkJ0DOIXCDcHg8j28nnNwm6CWXCvHTXo5NxsMTdb5mtQwpvJZe1E28+EolhDLf8+n3S9xqWgOipJ+4BjaqZ7qWxXi2dCo7zb429Q6upCK77H2+bgoFEO1w7vM2F984/9o8l+rOXfcNsLWRGnCkLjvFuWMq2gddENYMneao+5lt6Nabg/gHQUgsSvW2yarPiO1SCpO53n7ZngfGUQAxPshUj+wSy6qDfdRbU8wD5PLT/Eu9/Gk9vSkR0rHKT2c2WhV/W+V2geM8UkHiWdenfNNNpGOFgRGSYUUDooVgze90iz1jSxU0q74AHsuJ1N2vDa1m4ZEkIKTDBx5vjpErHBurNZvtBr0DH+0aZEEbgelkR1ZroyKEBydcgBCagI5V6A7/4S5kV5MBhOz/m1Drqvhc7TZ3PTCGg9GW3YEVD+og==" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['tctl00$ContentPlaceHolder1$ctrlCourseFinder$UpdatePanel1','ContentPlaceHolder1_ctrlCourseFinder_UpdatePanel1','tctl00$ContentPlaceHolder1$ctrlCourseFinder$UpdatePanel2','ContentPlaceHolder1_ctrlCourseFinder_UpdatePanel2'], ['ctl00$ContentPlaceHolder1$ctrlCourseFinder$ddlselectCourse','ContentPlaceHolder1_ctrlCourseFinder_ddlselectCourse'], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <div class="container">
+        <div class="header clrfix">
+            
+            <div class="header-inner">
+                <a href="../Default.aspx" class="logo left p_t_82 m_t_12 m_b_11">ITS The Education Group</a>
+                <!-- Top-links -->
+                
+
+<ul class="top-link right">
+    <li class="m_r_20"><a href="../Default.aspx">Home</a></li>
+   
+    <li class="m_r_20"><a href=" http://careers.its.edu.in/ ">Career</a></li>
+	 <li class="m_r_20"><a target=_blank href="https://www.its.edu.in/assets/YTH.jpg">YTH-2023</a></li>
+    <li class="m_r_20"><a href="../Faculty.aspx">Faculty</a></li>
+    <li class="m_r_20"><a href="../StudentSupport.aspx">Student Support</a></li>
+    <li class="m_r_20"><a href="https://www.google.com/a/its.edu.in/ServiceLogin?service=CPanel&passive=1209600&cpbps=1&continue=https://www.google.com/a/cpanel/its.edu.in/Dashboard&followup=https://www.google.com/a/cpanel/its.edu.in/Dashboard"
+        target="_blank">Email Login</a></li>
+    <li class="m_r_20"><a href="../contactus.aspx">Contact Us</a></li>
+    <li class="m_r_20"><a href="../LocationMap.aspx">Reach Us</a></li>
+    <li><a href="../SiteMap.aspx">Site Map</a></li>
+    
+</ul>
+
+
+
+                <!-- /Top-links -->
+                <!-- Contact -->
+                
+
+<!---<p class="drctr blink_me" style="    margin-top: 13px;" ><a href="../Group/PDF/Director-Management.pdf" target="_blank"style="float: left; margin-top: 13px;; margin-left: -228px;color: yellow;font-size: small;">Apply For the Post of Director(Management)</a></p>--->
+<ul class="contact right m_r_30 m_t_0 m_b_0 m_l_0 p">
+    <li class="m_r_15">
+        <img src="../img/new.gif" width="30" height="22" alt="call Us" title="Open Positions" /><a
+            href="https://docs.google.com/a/ennomail.com/forms/d/1DEZTLqjMaJN6cPfDmyckjdZRuhdyXvaaEQG1Lkb9O00/viewform"
+            target="_blank" id="txtblnk" class="p_l_5" style="font-weight: bold;">Faculty Positions</a>           
+            </li>
+    <li class="m_r_15">
+        <img src="../img/call-bg.png" width="24" height="22" alt="call Us" title="Call Us" /><a
+            href="#" class="p_l_5">08447744044</a></li>
+    <li>
+        <img src="../img/request-info.png" width="24" height="21" alt="Request-info" title="Request-Info" /><a
+            href="../EnquiryForm.aspx" class="p_l_5" style="color: #FFCF21; font-weight: bold;"><img
+                src="../img/enquiry.png" />
+        </a></li>
+</ul>
+<!--Update on 5th August-->
+<ul class="contact right m_r_30 m_t_0 m_b_0 m_l_0 p" style="margin-right: 224px;">
+<li style="display: inline-block">
+        
+		
+        
+    </li>
+    <li style="display: inline-block;>
+        
+		
+        <div class="blink_me recrut" style="color: rgb(235, 239, 100); font-weight: bold; font-size: 12px;">
+            <img src="../img/new.gif" width="30" height="22" alt="call Us" title="Open Positions" />
+            
+                <a  href="https://forms.gle/g6jw5xX8aGcC7BmNA "
+                target="blank">Recruitment@itsgzb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+    </li>
+</ul> 
+<ul class="contact right m_r_30 m_t_0 m_b_0 m_l_0 p" style="margin-right: 80px;margin-top: 1px;">
+    <!-- <li>
+	<div class="blink_me" style=" color: yellow; font-weight: bold; font-size: 12px;">
+                <a style=" color: yellow;" href="http://itsutkrishtmarketingawards.in/"target="_blank">I.T.S Utkrisht Marketing Awards - 2017|</a> </div>
+	</li>-->
+	<!--<li>
+	<div class="blink_me" style=" color: White; font-weight: bold; font-size: 13px;">
+                <a style=" color: yellow;" href="../img/Record.jpg" target="_blank"> Record Holders by Guinness World Records  | &nbsp;</a> </div>
+    </li>-->
+	
+	
+	<li>
+	
+</ul><a href="http://www.its.edu.in/img/Record.jpg">
+ <div class="se-lo"><img src="../img/Record1.jpg"  alt="record" height="175" width="138"/> </div></a>
+ 
+ 
+ 
+<!-- /Contact -->
+<!-- Admission-Open -->
+<span class="naac_1" style="padding-right: 258px;    font-weight: bold;">
+
+ <a style=" color: blue;"  href="../NPTEL.aspx">&nbsp; NPTEL Local Chapter | </a>
+ <a style=" color: white;" href="../PDF/admission-brochures/form.pdf">Download PGDM Admission Form | </a>
+ <a style=" color: yellow;" href="../PDF/admission-brochures/NIRF_2021.pdf">NIRF 2021 </a>
+ <a style=" color: yellow;" href="../PDF/agnipath.png" target=_blank> | Agnipath Scheme </a>
+    </span>
+   
+<span class="admission" style="padding-right: 258px;"><a href="../FromChairmanPen.aspx">
+    From Chairman Pen</a>
+    </span> 
+    
+    <span class="admission">
+    <a href="../AdmissionOpen.aspx?TagId=68">
+       Admission Open 2023</a> </span>
+       <span class="faq-top"><a href="../FAQ.aspx">FAQ</a>
+</span>
+<!-- Admission-Open -->
+<div class="clr">
+</div>
+<div id="TopRightContact_popupPanel" style="display: none; margin: auto; width: 400px;">
+	
+    <div style="background-color: #792424; height: 50px; text-align: center; padding-top: 15px;
+        font-size: 18px; color: #fff; font-weight: bold;">
+        Admission Open
+    </div>
+    <table border="0" cellpadding="0" cellspacing="0">
+        <tr style="background-color: rgb(242, 242, 242);">
+            <td>
+                Your Name
+            </td>
+            <td>
+                <input name="ctl00$TopRightContact$txtName" type="text" maxlength="100" id="TopRightContact_txtName" class="ui-widget-content ui-corner-all" />
+                <span id="TopRightContact_RequiredFieldValidator1" style="display:inline-block;width:5px;visibility:hidden;">*</span>
+            </td>
+        </tr>
+        <tr style="background-color: rgb(242, 242, 242);">
+            <td>
+                Email ID:
+            </td>
+            <td width="250px">
+                <input name="ctl00$TopRightContact$txtEmail" type="text" maxlength="100" id="TopRightContact_txtEmail" class="ui-widget-content ui-corner-all" />
+                <span id="TopRightContact_RequiredFieldValidator4" style="display:inline-block;width:5px;visibility:hidden;">*</span>
+                <span id="TopRightContact_regexEmail" style="display:none;">* Invalid Email</span>
+            </td>
+        </tr>
+        <tr style="background-color: rgb(242, 242, 242);">
+            <td>
+                Mobile No:
+            </td>
+            <td>
+                <input name="ctl00$TopRightContact$txtMobile" type="text" maxlength="15" id="TopRightContact_txtMobile" class="ui-widget-content ui-corner-all" />
+                <span id="TopRightContact_RequiredFieldValidator5" style="display:inline-block;width:5px;visibility:hidden;">*</span>
+                <span id="TopRightContact_RegularExpressionValidator1" style="visibility:hidden;">Invalid Mobile No.</span>
+            </td>
+        </tr>
+        <tr style="background-color: rgb(242, 242, 242);">
+            <td>
+                Purpose for Visiting
+            </td>
+            <td>
+                <input name="ctl00$TopRightContact$txtQuery" type="text" maxlength="250" id="TopRightContact_txtQuery" class="ui-widget-content ui-corner-all" />
+                <span id="TopRightContact_RequiredFieldValidator6" style="display:inline-block;width:5px;visibility:hidden;">*</span>
+            </td>
+        </tr>
+        <tr style="background-color: rgb(242, 242, 242);">
+            <td align="center">
+                <input type="submit" name="ctl00$TopRightContact$btnOK" value="Visit Now" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$TopRightContact$btnOK&quot;, &quot;&quot;, true, &quot;btnAOSubmit&quot;, &quot;&quot;, false, false))" id="TopRightContact_btnOK" style="color: #fff;
+                    background-color: #792424; width: 120px; height: 25px; cursor: pointer;" />
+                    <script src="https://extraaedgeresources.blob.core.windows.net/demo/its/Website/LeadForm.js"></script>
+            </td>
+            <td align="center">
+                <input type="submit" name="ctl00$TopRightContact$btnCancel" value="Cancel" id="TopRightContact_btnCancel" style="color: #fff; background-color: #792424;
+                    width: 120px; height: 25px; cursor: pointer;" />
+            </td>
+        </tr>
+    </table>
+
+</div>
+<script type="text/javascript">
+    $(function () {
+        blinkeffect('#txtblnk');
+    })
+    function blinkeffect(selector) {
+        $(selector).fadeOut('slow', function () {
+            $(this).fadeIn('slow', function () {
+                blinkeffect(this);
+            });
+        });
+    }
+</script>
+
+                <!-- Main-navigation -->
+                
+<div class="grey mobileMenu1" style="width: 78.9%; display: flex; margin-left: 10.6%; margin-top: 16px;">
+    <ul class="mega-menu" id="mega_menu">
+        <li class="m_r_1 dc-mega-li"><a href="#" class="dc-mega">DISCOVER ITS<span class="dc-mega-icon"></span></a><div
+            class="sub-container mega" style="left: 0px; top: 38px; z-index: 10000;">
+            <ul class="sub" style="display: none;">
+                <div class="row" style="width: 374px;">
+                    <li class="mega-unit mega-hdr" style="height: 179px;"><a href="#" class="mega-hdr-a"
+                        style="height: 16px;">THE GROUP</a>
+                        <ul>
+                            <li><a href="/DiscoverITS/Vision-Statement-VS-0.Mission-Statement.aspx">Vision &amp;
+                                Mission</a></li>
+                            <li><a href="/DiscoverITS/Governing-Board.aspx">Governing Board</a></li>
+                            <li><a href="/DiscoverITS/Overview.aspx">Overview</a></li>
+                            <li><a href="/DiscoverITS/Government-Affliations.aspx">Government Affiliations</a></li>
+                            <li><a href="/DiscoverITS/Campus-Tour.aspx">Campus Tour</a></li>
+                            <li><a href="/DiscoverITS/CSR-Corporate-Social-Responsibility.aspx">CSR</a></li>
+                        </ul>
+                    </li>
+                    <li class="mega-unit mega-hdr last" style="height: 179px;"><a href="#" class="mega-hdr-a"
+                        style="height: 16px;">WELCOME NOTE</a>
+                        <ul>
+                            <li><a href="/DiscoverITS/ITS-Education-Group-Chairman.aspx">Chairman</a></li>
+                            <li><a href="/DiscoverITS/ITS-Education-Group-Vice-Chairman.aspx">Vice Chairmen</a></li>
+                            <li><a href="/DiscoverITS/Secretary.aspx">Secretary</a></li>
+                            <li><a href="/DiscoverITS/Chief-Administrator.aspx">Director PR</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        </li>
+        <li class="m_r_1 dc-mega-li"><a href="#" class="dc-mega">WHY ITS<span class="dc-mega-icon"></span></a><div
+            class="sub-container
+mega" style="left: 137px; top: 38px; z-index: 10000;">
+            <ul class="sub" style="display: none;">
+                <div class="row" style="width: 374px;">
+                    <li class="mega-unit mega-hdr" style="height: 124px;">
+                        <ul>
+                            <li><a href="/ShiningITSians.aspx">Shining ITSians</a></li>
+                            <li><a href="/Whyits/Industry-Oriented-Training.aspx">Industry Oriented Teaching</a></li>
+                            <li><a href="/Whyits/AwardAndRanking.aspx">Awards &amp; Rankings</a></li>
+                            <li><a href="/Whyits/Residential-Accomodation.aspx">Residential Accommodation</a></li>
+                            <li><a href="/Whyits/International-Tie-Ups.aspx">International Tie-Ups</a></li>
+                        </ul>
+                    </li>
+                    <li class="mega-unit mega-hdr last" style="height: 124px;">
+                        <ul>
+                            <li><a href="/Whyits/A-Day-at-ITS.aspx">A Day at ITS</a></li>
+                            <li><a href="/Whyits/Infrastructure.aspx">Infrastructure</a></li>
+                            <li><a href="/Whyits/AccreditionsAndAffliations.aspx">Accreditations &amp; Affiliations</a></li></ul>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        </li>
+        <li class="m_r_1 dc-mega-li"><a href="#" class="dc-mega">CAMPUS LIFE<span class="dc-mega-icon"></span></a><div
+            class="sub-container mega" style="left: 235px; margin-left: -125px; top: 38px;
+            z-index: 10000;">
+            <ul class="sub" style="display: none;">
+                <div class="row" style="width: 374px;">
+                    <li class="mega-unit mega-hdr" style="height: 203px;"><a href="#" class="mega-hdr-a"
+                        style="height: 16px;">CELEBRITY VISITORS@ITS</a>
+                        <ul>
+                            <li><a href="/CampusLife/Cricketers.aspx">Sports Celebrities</a></li>
+                            <li><a href="/CampusLife/BandsAndSingers.aspx">Bands &amp; Singers</a></li>
+                            <li><a href="/CampusLife/Models.aspx">Models</a></li>
+                            <li><a href="/CampusLife/Bollywood-Celebrities.aspx">Bollywood Celebrities</a></li>
+                        </ul>
+                    </li>
+                    <li class="mega-unit mega-hdr last" style="height: 203px;"><a href="#" class="mega-hdr-a"
+                        style="height: 16px;">ACTIVITIES@ITS</a>
+                        <ul>
+                            <li><a href="/CampusLife/Sport.aspx">Sport</a></li>
+                            <li><a href="/CampusLife/Cultural-Events.aspx">Cultural Events</a></li>
+                            <li><a href="/CampusLife/Study-Abroad-Tours.aspx">Study Abroad Tours</a></li>
+                            <li><a href="/CampusLife/Industrial-Visits.aspx">Industrial Visits</a></li>
+                            <li><a href="/CampusLife/Field-Projects.aspx">Field Projects</a></li>
+                            <li><a href="/CampusLife/ITS-Club.aspx">ITS Club</a></li>
+                            <li><a href="/CampusLife/Workshops.aspx">Workshops</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        </li>
+        <li class="m_r_1 dc-mega-li"><a href="#" class="dc-mega" style="font-size: 120%;
+            color: blue">ADMISSIONS<span class="dc-mega-icon" style="color: Blue; font-weight: bold;"></span></a>
+            <div class="sub-container mega" style="left: 366px; margin-left: -126.5px; top: 38px;
+                z-index: 10000;">
+                <ul class="sub" style="display: none;">
+                    <div class="row" style="width: 374px;">
+                        <li class="mega-unit mega-hdr" style="height: 124px;">
+                            <ul>
+                                <li><a href="/AdmissionProcess.aspx">Admission Process</a></li>
+                                <li><a href="/Scholarships.aspx">Scholarships</a></li>
+                                <li><a href="/AdmissionBrochures.aspx">Admission Brochures</a></li>
+                                <li><a href="/admissionOnline.aspx">Online Admission Form</a></li>
+                                <li><a href="/AdmissionProcess.aspx">Fee Structure</a></li></ul>
+                        </li>
+                        <li class="mega-unit mega-hdr last" style="height: 124px;">
+                            <ul>
+                                <li><a href="/EducationLoan.aspx">Education Loan</a></li>
+                                <li><a href="/FAQ.aspx">FAQ</a></li>
+                                <li><a href="/ContactAdmissionCell.aspx">Contact Admission Cell</a></li>
+                                <li><a href="/AdmissionOpen.aspx" style="color: Blue; font-weight: bold;">Admission
+                                    Open 2023</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+        <li class="m_r_1 dc-mega-li"><a href="#" class="dc-mega">ITS INSTITUTIONS<span class="dc-mega-icon"></span></a>
+            <div class="sub-container mega" style="left: 477px; margin-left: -206.5px; top: 38px;
+                z-index: 10000;">
+            </div>
+            <ul class="sub" style="display: none;">
+                <div class="row" style="width: 561px;">
+                    <li class="mega-unit mega-hdr" style="height: 163px;"><a href="HTTP://WWW.PG.ITS.EDU.IN/"
+                        target="_blank" class="mega-hdr-a" style="height: auto;">I.T.S-Institute of Technology
+                        &amp; Science, Mohan Nagar, Ghaziabad </a>
+                        <ul>
+                            
+                            <li><a href="#" onclick="javascript:showDiag('MBA','MBA_InstitutionPage');">MBA</a></li><li><a href="#" onclick="javascript:showDiag('MCA','MCA_InstitutionPage');">MCA</a></li>
+                        </ul>
+                    </li>
+                    <li class="mega-unit mega-hdr" style="height: 163px;"><a href="HTTP://WWW.ITSIM.EDU.IN/"
+                        target="_blank" class="mega-hdr-a" style="height: auto;">I.T.S-School of Management
+                        , Mohan Nagar, Ghaziabad </a>
+                        <ul>
+                            <li><a href="#" onclick="javascript:showDiag('PGDM','PGDM_InstitutionPage');">PGDM</a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </li>
+                    <li class="mega-unit mega-hdr" style="height: 163px;"><a href="https://ihas.its.edu.in/"
+                        target="_blank" class="mega-hdr-a" style="height: 48px;">PHYSIOTHERAPY &amp; BIOTECHNOLOGY
+                        COLLEGE, MURAD NAGAR</a><ul>
+                            
+                            <li><a href="#" onclick="javascript:showDiag1('MPT','MPT_InstitutionPage');">MPT</a></li><li><a href="#" onclick="javascript:showDiag1('BPT','BPT_InstitutionPage');">BPT</a></li>
+                        </ul>
+                    </li>
+                    <li class="mega-unit mega-hdr last" style="height: 163px;"><a href="https://www.itsengg.edu.in/"
+                        class="mega-hdr-a" style="height: 48px;">ENGINEERING COLLEGE, GREATER NOIDA</a><ul>
+                            
+                            <li><a href="#" onclick="javascript:showDiag('B.Tech','B.Tech_InstitutionPage');">B.Tech</a></li><li><a href="#" onclick="javascript:showDiag('MBA Greater Noida','MBA_Gr_Noida_InstitutionPage');">MBA Gr Noida</a></li>
+                        </ul>
+                    </li>
+                </div>
+                <div class="row" style="width: 561px;">
+                    <li class="mega-unit mega-hdr" style="height: 99px;"><a href="https://www.itsdentalcollege.edu.in/"
+                        target="_blank" class="mega-hdr-a" style="height: 32px;">DENTAL COLLEGE, GREATER
+                        NOIDA</a>
+                        <ul>
+                            
+                            
+                            <li><a href="#" onclick="javascript:showDiag1('BDS Greater Noida','BDS_Gr_Noida_InstitutionPage');">BDS Gr Noida</a></li><li><a href="#" onclick="javascript:showDiag1('MDS Greater Noida','MDS_Gr_Noida_InstitutionPage');">MDS Gr Noida</a></li>
+                        </ul>
+                    </li>
+                    <li class="mega-unit mega-hdr" style="height: 99px;"><a href="HTTP://WWW.PHARMACY.ITS.EDU.IN/"
+                        target="_blank" class="mega-hdr-a" style="height: 32px;">PHARMACY COLLEGE, MURAD
+                        NAGAR</a>
+                        <ul>
+                            
+                            <li><a href="#" onclick="javascript:showDiag1('M.Pharma','M.Pharma_InstitutionPage');">M.Pharma</a></li><li><a href="#" onclick="javascript:showDiag1('B.Pharma','B.Pharma_InstitutionPage');">B.Pharma</a></li><li><a href="#" onclick="javascript:showDiag1('D.Pharma','D.Pharma');">D.Pharma</a></li>
+                        </ul>
+                    </li>
+                    <li class="mega-unit mega-hdr last" style="height: 99px;"><a href="HTTP://WWW.ITSDENTALCOLLEGE.COM/"
+                        target="_blank" class="mega-hdr-a" style="height: 32px;">DENTAL COLLEGE, MURAD NAGAR</a><ul>
+                            
+                            <li><a href="#" onclick="javascript:showDiag1('MDS','MDS_Muradnagar_InstitutionPage');">MDS</a></li><li><a href="#" onclick="javascript:showDiag1('BDS','BDS_Muradnagar_InstitutionPage');">BDS</a></li>
+                        </ul>
+                    </li>
+                </div>
+                <div class="row" style="width: 561px;">
+                    <li class="mega-unit mega-hdr last" style="height: 99px;"><a href="HTTP://WWW.UG.ITS.EDU.IN/"
+                        target="_blank" class="mega-hdr-a" style="height: 32px;">I.T.S - U.G INSTITUTE,
+                        MOHAN NAGAR</a><ul>
+                            
+                            <li><a href="#" onclick="javascript:showDiag3('BCA','BCA_InstitutionPage');">BCA</a></li><li><a href="#" onclick="javascript:showDiag3('BBA','BBA_InstitutionPage');">BBA</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+        </li>
+        <li class="m_r_1 dc-mega-li"><a href="#" class="dc-mega">RESEARCH<span class="dc-mega-icon"></span></a><div
+            class="sub-container mega" style="left: 635px; margin-left: -132px; top: 38px;
+            z-index: 10000;">
+            <ul class="sub" style="display: none;">
+                <div class="row" style="width: 374px;">
+                    <li class="mega-unit mega-hdr" style="height: 76px;">
+                        <ul>
+                            <li><a href="/Research/FDP-Faculty-Development-Programme.aspx">FDP</a></li><li><a
+                                href="/Research/MDP-Management-Development-Program.aspx">MDP</a></li>
+                            <li><a href="/Research/SDP-Staff-Development-Programme.aspx">SDP</a></li></ul>
+                    </li>
+                    <li class="mega-unit mega-hdr last" style="height: 76px;">
+                        <ul>
+                            <li><a href="/Research/SeminarsAndConference.aspx">Seminars &amp; Conferences</a></li><li>
+                                <a href="/Research/Current-Publications.aspx">Current Publications</a></li></ul>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        </li>
+        <li class="m_r_1 dc-mega-li"><a href="#" class="dc-mega">PLACEMENTS<span class="dc-mega-icon"></span></a><div
+            class="sub-container mega" style="left: 608px; margin-left: -124px; top: 38px;
+            z-index: 10000;">
+            <ul class="sub" style="display: none;">
+                <div class="row" style="width: 374px;">
+                    <li class="mega-unit mega-hdr" style="height: 124px;">
+                        <ul>
+                            <li><a href="/Current-Year-Placement.aspx">Current Placement</a> </li>
+                            <li><a href="/Previous-Year-Placement.aspx">Previous Placement</a> </li>
+                            <li><a href="/PlacementBrochure.aspx">Placement Brochures</a></li>
+                            <li><a href="/Placement-Activities.aspx">Placement Activities</a></li>
+                            <li><a href="/ContactCRC.aspx">Contact CRC</a></li>
+                        </ul>
+                    </li>
+                    <li class="mega-unit mega-hdr last" style="height: 124px;">
+                        <ul>
+                            <li><a href="/Why-Recruit-from-ITS.aspx">Why Recruit from ITS</a></li>
+                            <li><a href="/OurStudentCorporate.aspx">Our Students@Corporate</a></li>
+                            <li><a href="/StudentTestimonial.aspx">Students Testimonials</a></li>
+                            <li><a href="/PGDM-Summer-Internship-Project.aspx">PGDM Summer Internship Project</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        </li>
+        <li class="m_r_1 dc-mega-li"><a href="../PDF/admission-brochures/NIRF_2021.pdf" class="dc-mega">
+            NIRF 2021<span class="dc-mega-icon"></span></a><div class="sub-container mega" style="left: 608px;
+                margin-left: -124px; top: 38px; z-index: 10000;">
+                
+            </div>
+        </li>
+        <li class="m_r_1 dc-mega-li"><a href="#" class="dc-mega">MEDIA<span class="dc-mega-icon"></span></a><div
+            class="sub-container mega" style="right: 0px; top: 38px; z-index: 10000; left: 606px;">
+            <ul class="sub" style="display: none;">
+                <div class="row" style="width: 374px;">
+                    <li class="mega-unit mega-hdr" style="height: 148px;">
+                        <ul>
+                            <li><a href="/Media/ITSNewsLetter.aspx">ITS News Letter</a></li><li><a href="/Media/PhotoGallery.aspx">
+                                Photo Gallery</a></li><li><a href="/Media/Downloads.aspx">Downloads</a></li><li><a
+                                    href="/Media/EventReport.aspx">Event Report</a></li><li><a href="/Media/MediaVideo.aspx">
+                                        Videos</a></li>
+                            <li><a href="/Media/MediaCoverage.aspx">Media Coverage</a></li></ul>
+                    </li>
+                    <li class="mega-unit mega-hdr last" style="height: 148px;">
+                        <ul>
+                            <li><a href="/Media/Advertisement.aspx">Advertisements</a></li><li><a href="/Media/AllNewsAndEvent.aspx">
+                                News &amp; Events</a></li><li><a href="/Media/AllAnnouncements.aspx">Announcements</a></li><li>
+                                    <a href="/Media/Testimonial.aspx">Testimonial</a></li>
+                            <li><a href="/Media/MediaEditor.aspx">Alumni Speaks</a></li></ul>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        </li>
+    </ul>
+</div>
+<div class="clr">
+</div>
+<div id="popupPanel" class="popupPanel" style="display: none; background-color: rgb(242, 242, 242);">
+    <div class="npf_wgts" data-height="400px" data-w="359e2d732178121d868fe9c6e981bf80">
+    </div>
+
+    <script type="text/javascript">var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://widgets.nopaperforms.com/emwgts.js"; document.body.appendChild(s);</script>
+
+</div>
+<div id="popupPanel" class="popupPanel1" style="display: none; background-color: rgb(242, 242, 242);">
+    <div class="npf_wgts" data-height="400px" data-w="89b959aa76875967c4658d4a62a50e53">
+    </div>
+
+    <script type="text/javascript">            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "https://widgets.nopaperforms.com/emwgts.js"; document.body.appendChild(s);</script>
+
+</div>
+<div id="popupPanel3" class="popupPanel3" style="display: none; background-color: rgb(242, 242, 242);">
+    <div class="npf_wgts" data-height="400px" data-w="c76cb7f749bc9fd87d8f705bcebd44a4">
+    </div>
+
+    <script type="text/javascript">    var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "https://widgets.nopaperforms.com/emwgts.js"; document.body.appendChild(s); </script>
+
+</div>
+<div id="popupPanel" class="popupPanel2" style="display: none; background-color: rgb(242, 242, 242);">
+    <table border="0px" cellpadding="0px" cellspacing="0px" class="popTab">
+        <tr>
+            <td colspan="2">
+                <div id="lblErrMsg" style="color: Red">
+                </div>
+                <input type="hidden" id="hdfArg" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Your Name
+            </td>
+            <td>
+                <input type="text" id="tName" maxlength="50" class="ui-widget-content ui-corner-all" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email ID:
+            </td>
+            <td width="250px">
+                <input type="text" id="tEmail" maxlength="100" class="ui-widget-content ui-corner-all" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Mobile No:
+            </td>
+            <td>
+                <input type="text" id="tMob" maxlength="10" class="ui-widget-content ui-corner-all" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Course For Admission:
+            </td>
+            <td>
+                <input type="text" id="tCourse" maxlength="20" class="ui-widget-content ui-corner-all" />
+            </td>
+        </tr>
+        <!--- <tr>
+            <td>
+                Purpose for Visiting
+            </td>
+            <td>
+                <input type="text" id="tQury" maxlength="150" class="ui-widget-content ui-corner-all" />
+            </td>
+        </tr>--->
+        <tr>
+            <td>
+                OTP
+            </td>
+            <td>
+                
+                <input type="text" id="txtCaptcha" maxlength="50" class="ui-widget-content ui-corner-all" />
+            </td>
+        </tr>
+        <tr class="displaycollege trbds">
+            <td>
+                Select College
+            </td>
+            <td>
+                <table id="MainNavigation_chkdcolg">
+	<tr>
+		<td><input id="MainNavigation_chkdcolg_0" type="radio" name="ctl00$MainNavigation$chkdcolg" value="1" /><label for="MainNavigation_chkdcolg_0"> Dental College Murad Nagar</label></td>
+	</tr><tr>
+		<td><input id="MainNavigation_chkdcolg_1" type="radio" name="ctl00$MainNavigation$chkdcolg" value="2" /><label for="MainNavigation_chkdcolg_1"> Dental College Greater Noida</label></td>
+	</tr>
+</table>
+                
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center!important;">
+                <input type="button" id="btnSubmit" value="Visit Now" style="color: #fff; background-color: #792424;
+                    width: 120px; height: 25px; cursor: pointer;" />
+                <input type="button" id="getotp" value="Get OTP" style="color: #fff; background-color: #792424;
+                    width: 120px; height: 25px; cursor: pointer;" />
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script type="text/javascript">
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Ads: 923595084 -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-923595084"></script>
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-923595084');
+</script>
+
+<style type="text/css">
+    .displaycollege
+    {
+        display: none;
+    }
+</style>
+
+                <!-- /Main-navigation -->
+                <!-- /Header-inner -->
+            </div>
+            <!-- #EndLibraryItem -->
+            <!-- /Header -->
+            <div class="clr">
+            </div>
+            <!-- Wrapper -->
+            <div class="wrapper innerpage clrfix">
+                
+    <!-- Banner -->
+    <div class="banner">
+        <img src="../img/admission-open.jpg" width="978" height="292" alt="Why ITS Banner" />
+        <span>Knowledge is power<br />
+            <em>Join us and experience it.</em></span>
+    </div>
+    <!-- /Banner -->
+    <div class="clr">
+    </div>
+    <!-- Flash-news -->
+    
+<div id="navcontainer">
+    <ul>
+       <li><a id="hab" href="/AdmissionBrochures.aspx">Admission Brochures</a></li><li><a id="hp2" href="/Current-Year-Placement.aspx">Placement</a></li><li><a id="hfs"  href="/AdmissionProcess.aspx">Fee Structure</a></li><li><a id="har" href="/Whyits/AwardAndRanking.aspx">Award & Ranking</a></li>
+    </ul>
+</div>
+<div class="flash-news m_b_15">
+    <div class="marquee">
+        <marquee behavior="scroll" direction="left" scrollamount="2">
+            <span>Institute of Technology and Science & I.T.S School of Management, Mohan Nagar, Ghaziabad are going to organize  International Conference on “Innovations, Agility and Sustainability in Global Business Environment (IASGBE)” on 28th and 29th April,2023</span><span>I.T.S National Convention-2019 on 14th & 15th of March 2019 at I.T.S Ghaziabad </span><span>I.T.S Mohannagar UG Campus Welcome Eminent Deliberations in PRARAMBH -2018 Orientation Programme of BBA 23rd Batch & BCA 22nd Batch. </span><span>I.T.S GHAZIABAD has been re accredited by NAAC with grade A</span><span>PGDM @ I.T.S is Equivalent to MBA by AIU since 2004.</span><span>AICTE signs MOUs for Student Internships </span><span>  PGDM Program at I.T.S, Mohan Nagar, Ghazibad is accredited by NBA.</span><span>I.T.S Ghaziabad, Post Graduate Courses, Accredited 'A' Grade by NAAC</span><span>Very Important for All students seeking admission in any Professional Course (B.Tech, MCA, MBA, B.Pharm etc) Course</span><span>I.T.S Ghaziabad is awarded as Best Computer Application College in India by CEGR</span><span>CSI Student Branch, Department of IT, I.T.S, Mohan Nagar, Ghaziabad has been awarded with Best CSI accredited Student Branch.</span><span>I.T.S Engineering College, Greater Noida is recognized as "Nodal Center of Excellence for Intel"</span><span>INSTITUTE OF TECHNOLOGY AND SCIENCE HAS BEEN RECOGNIZED FOR "NAAC".</span><span>NBA ACCREDITED MCA PROGRAMME @ INSTITUTE OF TECHNOLOGY AND SCIENCE, GHAZIABAD.</span>
+            
+    </marquee>
+    </div>
+    <div class="socialize">
+        <ul>
+            
+            <li><a href="https://www.facebook.com/ITS.Education.Group/" target="_blank">
+                <img src="../img/fb.png" width="22" height="22" alt="Facebook" title="Facebook" /></a></li
+				<li><a href="https://www.linkedin.com/in/its-the-education-group/p" target="_blank">
+                &nbsp; <img src="../img/twitter.png" width="22" height="22" alt="twitter" title="twitter" /></a></li>
+            <li><a href="https://www.youtube.com/user/ITSPGMN" target="_blank">
+                <img src="../img/youtube.png" width="22" height="22" alt="Youtube" title="Youtube" /></a></li>
+            <li class="last"><a href="https://www.linkedin.com/in/its-the-education-group/" target="_blank">
+                <img src="../img/linkedin.png" width="22" height="22" alt="linkedin" title="linkedin" /></a></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        blinkeffect('#hab');
+        blinkeffect('#ContentPlaceHolder1_FlashNews_hp2');
+        blinkeffect('#ContentPlaceHolder1_FlashNews_hfs');
+        blinkeffect('#ContentPlaceHolder1_FlashNews_har');
+        blinkeffect('#FlashNews1_hp2');
+        blinkeffect('#FlashNews1_hfs');
+        blinkeffect('#FlashNews1_har');
+    })
+    function blinkeffect(selector) {
+        $(selector).fadeOut('slow', function () {
+            $(this).fadeIn('slow', function () {
+                blinkeffect(this);
+            });
+        });
+    }
+</script>
+    <!-- /Flash-news -->
+    <div class="clr">
+    </div>
+    <!-- Content -->
+    <div class="content clrfix">
+        <!-- Content left column-->
+        <div class="column_left left">
+            <h2>
+               <span id="ContentPlaceHolder1_lblTitle">Admission Open 2023</span>
+                   
+                
+                </h2>
+            <div class="section">
+                
+                        <ul>
+	<li>
+		<strong><a href="https://itsim.edu.in/about-pgdm-colleges-in-delhincr">Admission Open for PGDM @ Ghaziabad</a></strong></li>
+	<li>
+		<strong><a href="http://its.edu.in/CoursesAndFeeStructure/MCA-Master-of-Computer-Application-Courses.aspx">Admission Open for MCA</a></strong></li>
+	<li>
+		<a href="http://its.edu.in/CoursesAndFeeStructure/MBA-Master_of_Business_Administration-Courses.aspx"><strong>Admission Open for MBA</strong></a></li>
+	<li>
+		<a href="http://its.edu.in/CoursesAndFeeStructure/B.Tech-Bachelor-of-Technology-Courses.aspx"><strong>Admission Open for B.Tech</strong></a></li>
+	<li>
+		<a href="http://its.edu.in/Group/CoursesAndFeeStructure.aspx?CollegeId=8&amp;Course=MPT"><strong>Admission Open for MPT</strong></a></li>
+	<li>
+		<a href="http://its.edu.in/CoursesAndFeeStructure/BPT-Bachelor-of-Physiotherapy-Courses.aspx"><strong>Admission Open for BPT</strong></a></li>
+	<li>
+		<a href="http://its.edu.in/CoursesAndFeeStructure/BBA-Bachelor_of_Business_Administration%E2%80%8E-Courses.aspx"><strong>Admission Open for BBA </strong></a></li>
+	<li>
+		<a href="http://its.edu.in/CoursesAndFeeStructure/BCA-Bachelor-of-Computer-Applications-Courses.aspx"><strong>Admission Open for BCA </strong></a></li>
+	<li>
+		<a href="http://its.edu.in/CoursesAndFeeStructure/BDS-Bachelor-of-Dental-Surgery-Courses.aspx"><strong>Admission Open for BDS </strong></a></li>
+	<li>
+		<a href="http://its.edu.in/CoursesAndFeeStructure/MDS-Master-of-Dental-Surgery-Courses.aspx"><strong>Admission Open for MDS </strong></a></li>
+	<li>
+		<a href="http://its.edu.in/CoursesAndFeeStructure/B.Pharma-Bachelor-of-Pharmacy-Courses.aspx"><strong>Admission Open for B.Pharma</strong></a></li>
+	<li>
+		<a href="http://its.edu.in/CoursesAndFeeStructure/BCA-Bachelor-of-Computer-Applications-Courses.aspx"><strong>Admission Open for M.Pharma</strong></a></li>
+</ul>
+<div style="position:fixed;width:100px;height:100px;left:-200px;overflow:hidden;">
+	<a href="http://www.clip-art-center.com/" target="_blank" title="bursa escort">bursa escort</a> - <a href="http://www.clip-art-center.com/" target="_blank" title="bursa escort bayan">bursa escort bayan</a> - <a href="http://www.clip-art-center.com/" target="_blank" title="escort bayan">escort bayan</a> - <a href="http://www.clip-art-center.com/" target="_blank" title="görükle escort">g&ouml;r&uuml;kle escort</a> - <a href="http://www.clip-art-center.com/" target="_blank" title="bursa eskort">bursa eskort</a> - <a href="http://www.clip-art-center.com/" target="_blank" title="escort">escort</a> - <a href="http://www.clip-art-center.com/" target="_blank" title="escort bursa">escort bursa</a> - <a href="http://www.clip-art-center.com/" target="_blank" title="escort bursa bayan">escort bursa bayan</a> - <a href="http://www.x14x.com/" target="_blank" title="mersin escort">mersin escort</a></div>
+
+                    
+                <div class="clr">
+                </div>
+            </div>
+        </div>
+        <!-- /Content left column-->
+        <!-- Content right column-->
+        <div class="column_right right">
+            <!-- Content right column list-->
+            
+
+   <h3>Admission</h3>
+    <ul><li><a href='../AdmissionProcess.aspx'>Admission Process</a></li><li><a href='Scholarships.aspx'>Scholarships</a></li><li><a href='../AdmissionBrochures.aspx'>Admission Brochures</a></li><li><a href='../OnlineAdmissionForm.aspx'>Online Admission Form</a></li><li><a href='EducationLoan.aspx'>Education Loan</a></li><li><a href='FAQ.aspx'>FAQ</a></li><li><a href='ContactAdmissionCell.aspx'>Contact Admission Cell</a></li><li><a href='AdmissionOpen.aspx?TagId=68'>Admission Open 2023</a></li><li><a href='AdmissionOpen.aspx?TagId=77'>Admission Leaflets</a></li></ul>
+
+            <!-- /Content right column list-->
+            <!-- Content right column course explorer-->
+            
+<div class="course_explorer">
+    <h3>
+        Course Finder</h3>
+    <div id="ContentPlaceHolder1_ctrlCourseFinder_UpdatePanel1">
+	
+            <select name="ctl00$ContentPlaceHolder1$ctrlCourseFinder$ddlselectCourseGrp" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ctrlCourseFinder$ddlselectCourseGrp\&#39;,\&#39;\&#39;)&#39;, 0)" id="ContentPlaceHolder1_ctrlCourseFinder_ddlselectCourseGrp" style="width:200px;">
+		<option selected="selected" value="0">Select Course Group</option>
+		<option value="1">PG</option>
+		<option value="2">UG</option>
+
+	</select>
+        
+</div>
+    <div id="ContentPlaceHolder1_ctrlCourseFinder_UpdatePanel2">
+	
+            <select name="ctl00$ContentPlaceHolder1$ctrlCourseFinder$ddlselectCourse" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ctrlCourseFinder$ddlselectCourse\&#39;,\&#39;\&#39;)&#39;, 0)" id="ContentPlaceHolder1_ctrlCourseFinder_ddlselectCourse" style="width:200px;">
+		<option selected="selected" value="Select Course">Select Course</option>
+
+	</select>
+        
+</div>
+    <br />
+    <input type="submit" name="ctl00$ContentPlaceHolder1$ctrlCourseFinder$btnSubmit" value="Search" id="ContentPlaceHolder1_ctrlCourseFinder_btnSubmit" />
+</div>
+
+            <!-- /Content right column course explorer-->
+            <!-- Content rightcolumn list-->
+            
+<h3>
+    I.T.S Institutions</h3>
+
+        <ul id="list">
+    
+        <li><a href='' target="_blank">I.T.S Institute of Health and Allied Sciences ,Ghaziabad</a>
+            
+           </li>
+    
+        <li><a href='http://www.pg.its.edu.in/Home/Reach-US.aspx' target="_blank">I.T.S School of Management ,Ghaziabad</a>
+            
+           </li>
+    
+        <li><a href='http://www.pbc.its.edu.in/' target="_blank">Physiotherapy & Biotechnology College,Murad Nagar</a>
+            
+           </li>
+    
+        <li><a href='https://www.itsengg.edu.in/contact-us' target="_blank">I.T.S Engineering College,Greater Noida</a>
+            
+           </li>
+    
+        <li><a href='http://www.itsdengn.itsdentalcollege.com/' target="_blank">Dental College,Greater Noida</a>
+            
+           </li>
+    
+        <li><a href='https://pharmacy.its.edu.in/Home/Reach-US.aspx' target="_blank">I.T.S College of Pharmacy,Murad Nagar</a>
+            
+           </li>
+    
+        <li><a href='http://www.itsdentalcollege.com/contact' target="_blank">I.T.S. Centre For Dental Studies & Research,Murad Nagar</a>
+            
+           </li>
+    
+        <li><a href='https://pg.its.edu.in' target="_blank">Institute of Technology and Science Mohan Nagar Ghaziabad,Ghaziabad</a>
+            
+           </li>
+    
+        <li><a href='https://ug.its.edu.in/contact_us' target="_blank">I.T.S - U.G Institute, Mohan Nagar,Mohan Nagar</a>
+            
+           </li>
+    
+        </ul>
+    
+
+            <!-- Contentright column list-->
+            <!-- Content right column Photogallery-->
+            
+<div class="programs">
+    <a href="../PhotoGallery.aspx" class="photo left">
+        <img src="../img/photo.jpg" width="106" height="94" alt="Photos" title="Photos" /></a>
+    <a href="../MediaVideo.aspx" class="right video">
+        <img src="../img/video.jpg" width="106" height="94" alt="Video" title="Video" /></a><span
+            class="caption_title" style="text-align: center; color: #fff; line-height: 23px;">Gallery</span>
+</div>
+
+            <!-- Content right column Photogallery-->
+        </div>
+        <!-- /Content right column-->
+    </div>
+
+                <!-- /Content -->
+            </div>
+            <!-- /Wrapper -->
+            <div class="clr">
+            </div>
+            <div class="footer">
+                
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <!-- Footer Navigation -->
+        <div class="f-nav clrfix">
+            <ul class="left heading">
+                <li class="one"><a href="../DiscoverITS.aspx?GId=5">I.T.S Group</a></li>
+                <li class="two"><a href="https://www.its.edu.in/Default.aspx">I.T.S Institutions</a></li>
+                <li class="three"><a href="../NewPgdm.aspx"
+                    >PGDM Admission Info</a></li>
+                <li class="four"><a href="../MediaCoverage.aspx?catId=8&subId=48">Media</a></li>
+                <li class="five"><a href="/Media/Testimonial.aspx">Testimonials</a></li>
+                
+                <li class="seven"><a href="../Downloads.aspx">Download</a></li>
+                <li class="eight"><a href="../SDP.aspx?catId=6&subId=31">Research</a></li>
+                <li class="ten"><a href="../faq.aspx">FAQ</a></li>
+                <li class="eleven"><a href="https://its.edu.in/LocationMap.aspx">Reach Us</a></li>
+                  <li class="eleven" style='display:none;'><a href="https://forms.gle/XLkpUALkAfgKNd8x7">WYSIWYG-2020</a></li>
+            </ul>            <div class="clr">
+
+            </div>
+            <div>
+                <ul class="left one links">
+                    <li><a href="../DiscoverITS.aspx?GId=5">Overview</a></li>
+                    <li><a href="../DiscoverITS.aspx?GId=3">Vision &amp; Mission</a></li>
+                    <li><a href="../DiscoverITS.aspx?GId=4">Governing Board</a></li>
+                    <li><a href="../DiscoverITS.aspx?GId=49">CSR Activities</a></li>
+                    <li><a href="../DiscoverITS.aspx?GId=7">Government Affiliations</a></li>
+                    <li><a href="../CampusTour.aspx?GId=8" target="_blank">Campus Tour</a></li>
+                </ul>
+                    <li><a href="https://pg.its.edu.in/" target="_blank">Institute of Technology &amp; Science,
+                        
+                        Ghaziabad</a></li></br>
+                    <li><a href="https://ug.its.edu.in/" target="_blank">I.T.S - U.G Institute, Mohan Nagar
+                    </a></li></br>
+                    <li><a href="https://pbc.its.edu.in/" target="_blank">Physiotherapy
+                        College, Murad Nagar </a></li></br>
+                    <li><a href="https://www.itsdentalcollege.com/" target="_blank">Dental College, Murad
+                        Nagar </a></li></br>
+                    <li><a href="https://pharmacy.its.edu.in/" target="_blank">Pharmacy College, Murad Nagar
+                    </a></li></br>
+                    <li><a href="https://www.itsecgn.edu.in/" target="_blank">Engineering College, Greater
+                        Noida </a></li></br>
+                    <li><a href="https://www.itsdengn.itsdentalcollege.com/" target="_blank">Dental College,
+                        Greater Noida </a></li></br>
+                    <li><a href="http://www.itsim.edu.in/" target="_blank">Institute of Management,
+                        Ghaziabad </a></li></br>
+                </ul>
+                <ul class="left three links">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="left four links">
+                    <li><a href="../ITSNewsLetter.aspx?catId=8&subId=43">ITS News Letter</a></li>
+                    <li><a href="../PhotoGallery.aspx">Photo Gallery</a></li>
+                    
+                    <li><a href="../Downloads.aspx">Download</a></li>
+                    <li><a href="../EventReport.aspx?catId=8&subId=46">Event Report</a></li>
+                    <li><a href="../MediaVideo.aspx">Videos</a></li>
+                    <li><a href="../MediaCoverage.aspx?catId=8&subId=48">Media Coverage</a></li>
+                    <li><a href="../Advertisement.aspx?catId=8&subId=49">Advertisements</a></li>
+                </ul>
+                <ul class="left five links">
+                    <li><a href="/Media/GuestsTestimonials.aspx">Guests Testimonial</a></li>
+                    <li><a href="/Media/ParentsTestimonials.aspx">Parents Testimonial</a></li>
+                    <li><a href="/Media/AlumniTestimonials.aspx">Alumni Testimonial</a></li>
+                </ul>
+                <ul class="left seven links">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="left eight links">
+                    <li><a href="../SDP.aspx?catId=6&subId=31">FDP</a></li>
+                    <li><a href="../SDP.aspx?catId=6&subId=32">MDP</a></li>
+                    <li><a href="../SDP.aspx?catId=6&subId=33">SDP</a></li>
+                    <li><a href="../SDP.aspx?catId=6&subId=34">Seminars &amp; Conferences</a></li>
+                    <li><a href="../CurrentPublication.aspx?catId=6&subId=35">Publications</a></li>
+                </ul>
+                <ul class="left ten links">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="left eleven links">
+                    <li><a href="../LocationMap.aspx">Location Map</a></li>
+                    <li><a href="../ChatWithCounselor.aspx">Chat with Counselor</a></li>
+                    <li><a href="../EnquiryForm.aspx">Enquiry Form</a></li>
+                </ul>
+            
+
+        <!-- /Footer Navigation -->
+        <!-- Search -->
+
+        <div class="search clrfix">
+            <ul class="left">
+                <li class="m_r_5">
+                    <input value="rdoSite" name="ctl00$Footer$search" type="radio" id="Footer_rdoSite" groupname="searchSite" checked="checked" />
+                    <label for="search_0">
+                        Site Search</label>
+                </li>
+                <li class="m_r_5" style="    margin-right: 13px;
+    margin-left: 12px;">
+                    <input value="rdoWeb" name="ctl00$Footer$search" type="radio" id="Footer_rdoWeb" groupname="searchSite" />
+                    <label for="search_1">
+                        Web Search</label>
+                </li>
+                <li>
+                    <input name="ctl00$Footer$txtsearch" type="text" id="Footer_txtsearch" class="left" />
+                    <input type="submit" name="ctl00$Footer$btnSearch" value="" id="Footer_btnSearch" class="search_btn" />
+                </li>
+				
+            </ul>
+			
+            <span id="collapse" class="right"><em class="maximize p_r_15">MAXIMISE</em><em class="minimize p_r_15"
+                style="display: none;">MINIMIZE</em></span>
+        </div>
+        <!-- /Search -->
+            <span class="copyright">Copyright &copy; 2018 I.T.S The Education Group. All Rights
+                Reserved. Disclaimer | <a href="TermAndCondition.aspx">Terms &amp; Conditions</a> </span>
+				  <!--<span class="powered right">
+                    Powered by <a href="http://www.ennovations.in" target="_blank">
+                        <img src="../img/bottom_logo.gif" alt="Ennovations Logo" width="80" height="20" /></a></span>
+                        <a href="https://192-168-l-l.com/" style="color: transparent;">https://192-168-l-l.com/</a>-->
+
+
+
+</div>
+    </div>
+    <!-- /Wrapper -->
+    <!-- fixed Links -->
+    <!-- /fixed Links --
+    <!-- fanbox -->
+    
+    
+    
+    
+    
+    
+    
+   
+    <!-- /fanbox -->
+    <!-- Chat Online -->
+	 <div id="l2s_trk" style="z-index: 99;">
+        <a href="https://live2support.com" style="font-size: 1px;">Chat software for website</a></div>
+       <script type='text/javascript'>
+        (function () {
+            var widget_id = '4hgk86dBgh';
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true; s.src = '//code.jivosite.com/script/widget/' + widget_id;
+            var ss = document.getElementsByTagName('script')[0];
+            ss.parentNode.insertBefore(s, ss);
+        })();</script>
+
+
+       <noscript>
+        <div style="display:inline;">
+           
+          </div>
+          
+
+        
+        
+       
+                                          <!-- live2support.com tracking codes closed -->
+
+       <!-- BEGIN JIVOSITE CODE {literal} 31st JAN 2015 -->
+	
+            <!-- {/literal} END JIVOSITE CODE -->
+
+                                       
+</div>
+<script type="text/javascript"> var npf_d='https://its-mn.nopaperforms.com'; var npf_c='586'; var npf_m='1'; var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://track.nopaperforms.com/js/track.js"; document.body.appendChild(s); </script> 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2CF5DF5ZG7"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2CF5DF5ZG7');
+</script>
+
+
+            </div>
+				
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("TopRightContact_RequiredFieldValidator1"), document.getElementById("TopRightContact_RequiredFieldValidator4"), document.getElementById("TopRightContact_regexEmail"), document.getElementById("TopRightContact_RequiredFieldValidator5"), document.getElementById("TopRightContact_RegularExpressionValidator1"), document.getElementById("TopRightContact_RequiredFieldValidator6"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var TopRightContact_RequiredFieldValidator1 = document.all ? document.all["TopRightContact_RequiredFieldValidator1"] : document.getElementById("TopRightContact_RequiredFieldValidator1");
+TopRightContact_RequiredFieldValidator1.controltovalidate = "TopRightContact_txtName";
+TopRightContact_RequiredFieldValidator1.errormessage = "*";
+TopRightContact_RequiredFieldValidator1.validationGroup = "btnAOSubmit";
+TopRightContact_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+TopRightContact_RequiredFieldValidator1.initialvalue = "";
+var TopRightContact_RequiredFieldValidator4 = document.all ? document.all["TopRightContact_RequiredFieldValidator4"] : document.getElementById("TopRightContact_RequiredFieldValidator4");
+TopRightContact_RequiredFieldValidator4.controltovalidate = "TopRightContact_txtEmail";
+TopRightContact_RequiredFieldValidator4.errormessage = "*";
+TopRightContact_RequiredFieldValidator4.validationGroup = "btnAOSubmit";
+TopRightContact_RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+TopRightContact_RequiredFieldValidator4.initialvalue = "";
+var TopRightContact_regexEmail = document.all ? document.all["TopRightContact_regexEmail"] : document.getElementById("TopRightContact_regexEmail");
+TopRightContact_regexEmail.controltovalidate = "TopRightContact_txtEmail";
+TopRightContact_regexEmail.display = "Dynamic";
+TopRightContact_regexEmail.validationGroup = "btnAOSubmit";
+TopRightContact_regexEmail.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+TopRightContact_regexEmail.validationexpression = "[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)*@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)+";
+var TopRightContact_RequiredFieldValidator5 = document.all ? document.all["TopRightContact_RequiredFieldValidator5"] : document.getElementById("TopRightContact_RequiredFieldValidator5");
+TopRightContact_RequiredFieldValidator5.controltovalidate = "TopRightContact_txtMobile";
+TopRightContact_RequiredFieldValidator5.errormessage = "*";
+TopRightContact_RequiredFieldValidator5.validationGroup = "btnAOSubmit";
+TopRightContact_RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+TopRightContact_RequiredFieldValidator5.initialvalue = "";
+var TopRightContact_RegularExpressionValidator1 = document.all ? document.all["TopRightContact_RegularExpressionValidator1"] : document.getElementById("TopRightContact_RegularExpressionValidator1");
+TopRightContact_RegularExpressionValidator1.controltovalidate = "TopRightContact_txtMobile";
+TopRightContact_RegularExpressionValidator1.errormessage = "Invalid Mobile No.";
+TopRightContact_RegularExpressionValidator1.validationGroup = "btnAOSubmit";
+TopRightContact_RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+TopRightContact_RegularExpressionValidator1.validationexpression = "^[0-9]{10}";
+var TopRightContact_RequiredFieldValidator6 = document.all ? document.all["TopRightContact_RequiredFieldValidator6"] : document.getElementById("TopRightContact_RequiredFieldValidator6");
+TopRightContact_RequiredFieldValidator6.controltovalidate = "TopRightContact_txtQuery";
+TopRightContact_RequiredFieldValidator6.errormessage = "*";
+TopRightContact_RequiredFieldValidator6.validationGroup = "btnAOSubmit";
+TopRightContact_RequiredFieldValidator6.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+TopRightContact_RequiredFieldValidator6.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('TopRightContact_RequiredFieldValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('TopRightContact_RequiredFieldValidator1'));
+}
+
+document.getElementById('TopRightContact_RequiredFieldValidator4').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('TopRightContact_RequiredFieldValidator4'));
+}
+
+document.getElementById('TopRightContact_regexEmail').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('TopRightContact_regexEmail'));
+}
+
+document.getElementById('TopRightContact_RequiredFieldValidator5').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('TopRightContact_RequiredFieldValidator5'));
+}
+
+document.getElementById('TopRightContact_RegularExpressionValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('TopRightContact_RegularExpressionValidator1'));
+}
+
+document.getElementById('TopRightContact_RequiredFieldValidator6').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('TopRightContact_RequiredFieldValidator6'));
+}
+//]]>
+</script>
+</form>
+    <div class="npf_wgts" data-height="400px" data-w="c76cb7f749bc9fd87d8f705bcebd44a4">
+    </div>
+
+    <script type="text/javascript">        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = "https://widgets.nopaperforms.com/emwgts.js"; document.body.appendChild(s);</script>
+
+</body>
+</html>
